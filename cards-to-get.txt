@@ -1,0 +1,31 @@
+1 Dark Confidant [FIN]
+1 Demon Wall [FIN]
+1 Emet-Selch, Ascian
+1 Emet-Selch, Unsundered // Hades, Sorcerer of Eld [FIN]
+1 Endwalker
+1 G'raha Tia
+1 Il Mheg Pixie
+1 Machinist's Arsenal
+1 Magitek Scythe
+1 Newfound Adventure
+1 Ninja's Blades
+1 Summoner's Grimoire
+1 Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal
+
+Extra copies for dual face
+Emet-Selch, Unsundered // Hades, Sorcerer of Eld
+Hildibrand Manderville // Gentleman's Rise
+Hypnotic Sprite // Mesmeric Glare
+Ishgard, the Holy See // Faith & Grief
+Murderous Rider // Swift End
+Sidequest: Card Collection // Magicked Card
+Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal
+Zenos yae Galvus // Shinryu, Transcendent Rival
+
+0013 Token Creature Horror [FIN]
+0015 Token Creature Wizard [FIN]
+0021 Token Creature Elemental [FIN]
+
+0001 Token Creature Human Soldier [FIC]
+0004 Token Creature Bird [FIC]
+0006 Token Creature Zombie [FIC]
