@@ -1,10 +1,8 @@
 Dark Confidant [FIN]
-Demon Wall
 Emet-Selch, Ascian
 Emet-Selch, Unsundered // Hades, Sorcerer of Eld
 Endwalker
 G'raha Tia
-Il Mheg Pixie
 Machinist's Arsenal
 Magitek Scythe
 Newfound Adventure
@@ -13,7 +11,6 @@ Summoner's Grimoire
 Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal
 
 0013 Token Creature Horror [FIN]
-0015 Token Creature Wizard [FIN]
 0021 Token Creature Elemental [FIN]
 
 0001 Token Creature Human Soldier [FIC]
@@ -22,7 +19,6 @@ Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal
 
 Get extra copies for dual face
 Emet-Selch, Unsundered // Hades, Sorcerer of Eld
-Sidequest: Card Collection // Magicked Card
 Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal
 Zenos yae Galvus // Shinryu, Transcendent Rival
 
