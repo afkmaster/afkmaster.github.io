@@ -1,24 +1,7 @@
-Dark Confidant [FIN]
-Emet-Selch, Ascian
-Emet-Selch, Unsundered // Hades, Sorcerer of Eld
-Endwalker
-G'raha Tia
-Machinist's Arsenal
 Magitek Scythe
-Newfound Adventure
-Ninja's Blades
-Summoner's Grimoire
-Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal
-
-0013 Token Creature Horror [FIN]
 0021 Token Creature Elemental [FIN]
-
 0001 Token Creature Human Soldier [FIC]
 0004 Token Creature Bird [FIC]
-
-Get extra copies for dual face
-Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal
-Zenos yae Galvus // Shinryu, Transcendent Rival
 
 Borderless cards
 Ishgard, the Holy See
@@ -28,10 +11,3 @@ Ultima
 Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal
 Y'shtola, Night's Blessed
 Zenos yae Galvus
-
-Extended Cards
-Blue Mage's Cane
-Dancer's Chakrams
-Estinien Varlineau
-Hermes, Overseer of Elpis
-Lyse Hext
