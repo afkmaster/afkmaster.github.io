@@ -15,7 +15,6 @@ Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal
 
 0001 Token Creature Human Soldier [FIC]
 0004 Token Creature Bird [FIC]
-0006 Token Creature Zombie [FIC]
 
 Get extra copies for dual face
 Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal
