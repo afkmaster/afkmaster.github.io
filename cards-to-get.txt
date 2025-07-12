@@ -1,13 +1,7 @@
-Magitek Scythe
-0021 Token Creature Elemental [FIN]
-0001 Token Creature Human Soldier [FIC]
-0004 Token Creature Bird [FIC]
-
 Borderless cards
 Ishgard, the Holy See
 Summon: Good King Mog XII
 Summon: Primal Odin
-Ultima
 Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal
 Y'shtola, Night's Blessed
 Zenos yae Galvus
