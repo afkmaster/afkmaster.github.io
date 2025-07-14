@@ -26,7 +26,7 @@ async function getSetIds(url) {
 
   } catch (error) {
     console.error(`Error during request or scraping: ${error.message}`);
-    return null;
+    return [];
   }
 }
 
@@ -38,12 +38,13 @@ async function getSetData(url, setIds) {
       formData.append('package', item.webPackageId);
       
       const response = await axios.post(url, formData, {
-          // You can explicitly set headers if needed, but for FormData,
-          // axios often handles Content-Type correctly.
-          // headers: formData.getHeaders() // Use this if you need to access boundary etc.
+        // You can explicitly set headers if needed, but for FormData,
+        // axios often handles Content-Type correctly.
+        // headers: formData.getHeaders() // Use this if you need to access boundary etc.
       });
       const $ = cheerio.load(response.data);
-      cards = []
+      
+      const cards = []
       $('.cardInner .cardItem a').each((i, element) => {
         const name = $(element).children('img').attr('alt')
         const dataUrl = $(element).attr('data-src');
@@ -59,7 +60,7 @@ async function getSetData(url, setIds) {
       setData[item.nameKey] = cards;
     } catch (error) {
       console.error(`Error during request or scraping: ${error.message}`);
-      return null;
+      return {};
     }
   };
   return setData;
@@ -77,14 +78,11 @@ async function getSetData(url, setIds) {
     }
 
     for (const [key, cards] of Object.entries(setData)) {
-      console.log(`${key}: ${cards}`);
       const outputFilePath = path.join(outputDir, `${key}.json`);
       
       fs.writeFileSync(outputFilePath, JSON.stringify(cards, null, 2), 'utf-8');
       console.log(`Data successfully written to ${outputFilePath}`);
     }
-    
-
   } else {
     console.log("Failed to scrape data.");
   }
