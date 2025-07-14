@@ -7,10 +7,12 @@ async function scrapeWebsite(url) {
   try {
     const response = await axios.get(url);
     const $ = cheerio.load(response.data);
+    console.log(response.data);
 
     // --- Your scraping logic here ---
     const filterDataVals = [];
     $('.filterListItems a').each((i, element) => {
+      console.log(element)
       const dataVal = $(element).attr('data-vals');
       if (dataVal) {
         filterDataVals.push(dataVal);
