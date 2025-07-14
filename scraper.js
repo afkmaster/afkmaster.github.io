@@ -64,7 +64,7 @@ async function getSetData(url, setIds) {
           imgUrl: imgUrl,
           data: dataHtml
         });
-      });
+      };
 
       setData[item.nameKey] = cards;
     } catch (error) {
