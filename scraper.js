@@ -14,7 +14,7 @@ async function getSetIds(url) {
       const setId = $(element).attr('data-val');
       const name = $(element).text();
       const nameKey = name.replace('[', '').replace(']', '').replaceAll(' ', '_').toLowerCase();
-      if (dataVal) {
+      if (setId) {
         setIds.push({
           name: name,
           nameKey: nameKey,
