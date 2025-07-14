@@ -9,18 +9,20 @@ async function scrapeWebsite(url) {
     const $ = cheerio.load(response.data);
 
     // --- Your scraping logic here ---
-    const filterDataVals = [];
+    const setIds = [];
     $('.searchFormBox .filterListItems a').each((i, element) => {
       const dataVal = $(element).attr('data-val');
+      const name = $(element).text();
       if (dataVal) {
-        filterDataVals.push(dataVal);
+        setIds.push({
+          name: name,
+          setId: dataVal
+        });
       }
     });
 
     const data = {
-      scraped_url: url,
-      filter_data_values: filterDataVals,
-      timestamp: new Date().toISOString()
+      setIds: setIds
     };
     return data;
 
