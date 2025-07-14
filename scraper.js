@@ -4,6 +4,8 @@ const FormData = require('form-data');
 const fs = require('fs');
 const path = require('path');
 
+const BASE_URL = 'https://www.gundam-gcg.com/en/cards';
+
 async function getSetIds(url) {
   try {
     const response = await axios.get(url);
@@ -47,7 +49,7 @@ async function getSetData(url, setIds) {
       const cards = []
       $('.cardInner .cardItem a').each((i, element) => {
         const name = $(element).children('img').attr('alt')
-        const dataUrl = $(element).attr('data-src');
+        const dataUrl = `${BASE_URL}/${$(element).attr('data-src')}`;
         const imgUrl = $(element).children('img').attr('data-src');
         
         cards.push({
@@ -67,7 +69,7 @@ async function getSetData(url, setIds) {
 }
 
 (async () => {
-  const url = "https://www.gundam-gcg.com/en/cards/index.php";
+  const url = `${BASE_URL}/index.php`;
   const setIds = await getSetIds(url);
 
   if (setIds) {
