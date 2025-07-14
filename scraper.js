@@ -1,14 +1,14 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
+const FormData = require('form-data');
 const fs = require('fs');
 const path = require('path');
 
-async function scrapeWebsite(url) {
+async function getSetIds(url) {
   try {
     const response = await axios.get(url);
     const $ = cheerio.load(response.data);
 
-    // --- Your scraping logic here ---
     const setIds = [];
     $('.searchFormBox .filterListItems a').each((i, element) => {
       const setId = $(element).attr('data-val');
@@ -18,11 +18,11 @@ async function scrapeWebsite(url) {
         setIds.push({
           name: name,
           nameKey: nameKey,
-          setId: setId
+          webPackageId: setId
         });
       }
     });
-
+    console.log(setIds);
     const data = {
       setIds: setIds
     };
@@ -34,21 +34,53 @@ async function scrapeWebsite(url) {
   }
 }
 
-(async () => {
-  // Set the target URL for the Gundam website
-  const targetUrl = "https://www.gundam-gcg.com/en/cards/index.php";
-  const scrapedData = await scrapeWebsite(targetUrl);
+async function getSetData(url, setIds) {
+  setData = {}
+  setIds.forEach((item) => {
+    try {
+      const formData = new FormData();
+      formData.append('package', item.webPackageId);
+      
+      const response = await axios.post(url, formData, {
+          // You can explicitly set headers if needed, but for FormData,
+          // axios often handles Content-Type correctly.
+          // headers: formData.getHeaders() // Use this if you need to access boundary etc.
+      });
+      const $ = cheerio.load(response.data);
+      cards = []
+      $('.cardInner .cardItem a').each((i, element) => {
+        cards.push(element.children('img').attr('alt');
+      });
 
-  if (scrapedData) {
-    // Define the output file path
+      setData[item.nameKey] = cards;
+    } catch (error) {
+      console.error(`Error during request or scraping: ${error.message}`);
+      return null;
+    }
+  });
+  return setData;
+}
+
+(async () => {
+  const url = "https://www.gundam-gcg.com/en/cards/index.php";
+  const setIds = await getSetIds(url);
+
+  if (setIds) {
+    const setData = await getSetData(url, setIds);
     const outputDir = "scraped-data";
     if (!fs.existsSync(outputDir)) {
-      fs.mkdirSync(outputDir, { recursive: true }); // Create 'data' directory if it doesn't exist
+      fs.mkdirSync(outputDir, { recursive: true });
     }
-    const outputFilePath = path.join(outputDir, "gundam_card_data.json"); // Changed filename
 
-    fs.writeFileSync(outputFilePath, JSON.stringify(scrapedData, null, 2), 'utf-8');
-    console.log(`Data successfully written to ${outputFilePath}`);
+    for (const [key, cards] of Object.entries(setData)) {
+      console.log(`${key}: ${cards}`);
+      const outputFilePath = path.join(outputDir, `${key}.json`);
+      
+      fs.writeFileSync(outputFilePath, JSON.stringify(cards, null, 2), 'utf-8');
+      console.log(`Data successfully written to ${outputFilePath}`);
+    }
+    
+
   } else {
     console.log("Failed to scrape data.");
   }
