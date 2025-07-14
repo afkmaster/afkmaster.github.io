@@ -13,7 +13,7 @@ async function getSetIds(url) {
     $('.searchFormBox .filterListItems a').each((i, element) => {
       const setId = $(element).attr('data-val');
       const name = $(element).text();
-      const nameKey = name.replace('[', '').replace(']', '').replaceAll(' ', '_').toLowerCase();
+      const nameKey = name.replace('[', '').replace(']', '').replace("'", '').replaceAll(' ', '_').toLowerCase();
       if (setId) {
         setIds.push({
           name: name,
