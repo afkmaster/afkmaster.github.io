@@ -23,10 +23,7 @@ async function getSetIds(url) {
       }
     });
     console.log(setIds);
-    const data = {
-      setIds: setIds
-    };
-    return data;
+    return setIds;
 
   } catch (error) {
     console.error(`Error during request or scraping: ${error.message}`);
