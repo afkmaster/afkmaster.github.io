@@ -12,9 +12,9 @@ async function getSetIds(url) {
     const $ = cheerio.load(response.data);
 
     const setIds = [];
-    $('.searchFormBox .filterListItems a').each((i, element) => {
-      const setId = $(element).attr('data-val');
-      const name = $(element).text();
+    $('.searchFormBox .filterListItems a').each((i, elem) => {
+      const setId = $(elem).attr('data-val');
+      const name = $(elem).text();
       const nameKey = name.replace('[', '').replace(']', '').replace("'", '').replaceAll(' ', '_').toLowerCase();
       if (setId) {
         setIds.push({
@@ -47,11 +47,11 @@ async function getSetData(url, setIds) {
       const $ = cheerio.load(response.data);
       
       const cards = []
-      $('.cardInner .cardItem a').each((i, element) => {
-        const name = $(element).children('img').attr('alt')
-        const dataUrl = `${BASE_URL}/cards/${$(element).attr('data-src')}`;
+      for (const elem of $('.cardInner .cardItem a')) {
+        const name = $(elem).children('img').attr('alt')
+        const dataUrl = `${BASE_URL}/cards/${$(elem).attr('data-src')}`;
         
-        const imgSrc = $(element).children('img').attr('data-src').replace('../', '');
+        const imgSrc = $(elem).children('img').attr('data-src').replace('../', '');
         const imgUrl = `${BASE_URL}/${imgSrc}`;
 
         const dataResponse = await axios.get(dataUrl);
