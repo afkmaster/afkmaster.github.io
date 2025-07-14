@@ -45,7 +45,15 @@ async function getSetData(url, setIds) {
       const $ = cheerio.load(response.data);
       cards = []
       $('.cardInner .cardItem a').each((i, element) => {
-        cards.push($(element).children('img').attr('alt'));
+        const name = $(element).children('img').attr('alt')
+        const dataUrl = $(element).attr('data-src');
+        const imgUrl = $(element).children('img').attr('data-src');
+        
+        cards.push({
+          name: name,
+          dataUrl: dataUrl,
+          imgUrl: imgUrl
+        });
       });
 
       setData[item.nameKey] = cards;
