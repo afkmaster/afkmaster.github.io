@@ -1,143 +1,707 @@
 [
-  "Gundam",
-  "Unicorn Gundam (Destroy Mode)",
-  "Unicorn Gundam 02 Banshee (Destroy Mode)",
-  "Guncannon",
-  "Unicorn Gundam (Unicorn Mode)",
-  "Delta Plus",
-  "Noin's Aries",
-  "Guntank",
-  "G-Fighter",
-  "Unicorn Gundam 02 Banshee (Unicorn Mode)",
-  "Loto",
-  "Zechs' Leo",
-  "Gundam",
-  "G-Sky Easy",
-  "Ball",
-  "Jegan",
-  "Stark Jegan",
-  "ReZEL",
-  "Byarlant Custom",
-  "Anksha",
-  "Pisces",
-  "Cancer",
-  "Char's Gelgoog",
-  "Wing Gundam Zero",
-  "Gundam Deathscythe",
-  "Char's Zaku Ⅱ",
-  "Big Zam",
-  "Gundam Sandrock",
-  "Shenlong Gundam",
-  "Rick Dom",
-  "Gelgoog",
-  "Gyan",
-  "Gundam Deathscythe",
-  "Gundam Heavyarms",
-  "Zaku Ⅱ",
-  "Gouf",
-  "Gogg",
-  "Adzam",
-  "Dopp",
-  "Wing Gundam",
-  "Shenlong Gundam",
-  "Duo's Leo",
-  "Rasid's Maganac",
-  "Kshatriya",
-  "Duel Gundam (Assault Shroud)",
-  "Buster Gundam",
-  "Shamblo",
-  "Zaku I Sniper Type",
-  "Blitz Gundam",
-  "LaGOWE",
-  "Kshatriya",
-  "Geara Zulu (Guards Type)",
-  "Geara Doga (Heavy Armed Type)",
-  "Duel Gundam",
-  "BuCUE",
-  "Geara Doga (Sleeves)",
-  "Dreissen (Sleeves)",
-  "Galluss-K",
-  "Zee Zulu",
-  "Zaku Mariner",
-  "ZuOOT",
-  "GOOhN",
-  "ZnO",
-  "DINN",
-  "Freedom Gundam",
-  "Justice Gundam",
-  "Gundam Aerial Rebuild",
-  "Perfect Strike Gundam",
-  "Strike Rouge",
-  "Gundam Aerial",
-  "Gundam Pharact",
-  "Launcher Strike Gundam",
-  "Sword Strike Gundam",
-  "Chuchu's Demi Trainer",
-  "Darilbalde",
-  "Michaelis",
-  "Strike Gundam",
-  "Mistral",
-  "Skygrasper",
-  "Cagalli's Skygrasper",
-  "M1 Astray",
-  "Gundam Aerial (Mirasoul Flight Unit)",
-  "Guel's Dilanza",
-  "Beguir-Pente",
-  "Demi Garrison",
-  "Gundam Lfrith",
-  "Sayla Mass",
-  "Banagher Links",
-  "Riddhe Marcenas",
-  "Duo Maxwell",
-  "Chang Wufei",
-  "M'Quve",
-  "Marida Cruz",
-  "Yzak Jule",
-  "Dearka Elthman",
-  "Cagalli Yula Athha",
-  "Guel Jeturk",
-  "Elan Ceres (Enhanced Person Number 4)",
-  "Intercept Orders",
-  "A Show of Resolve",
-  "Deep Devotion",
-  "Securing the Supply Line",
-  "The Stubborn Cog",
-  "Signs of a Revolution",
-  "Citizens, Take a Stand!",
-  "Fortress Defense",
-  "First Contact",
-  "Strategic Arms",
-  "The Path to Victory or Defeat",
-  "Rasid's Orders",
-  "Battle of Aces",
-  "Extreme Hatred",
-  "The Desert Tiger",
-  "Assault on Torrington Base",
-  "Zeon Remnant Forces",
-  "Stealth Stratagem",
-  "The Witch and the Bride",
-  "Overflowing Affection",
-  "Iron-Fisted Discipline",
-  "Naval Bombardment",
-  "Midair Modifications",
-  "Covert Operative",
-  "Nahel Argama",
-  "Side 7",
-  "Zanzibar",
-  "Underground Desert Base",
-  "Gamow",
-  "Mining Asteroid Palau",
-  "Kusanagi",
-  "13th Tactical Testing Sector",
-  "Fatum-00",
-  "Resource",
-  "Resource",
-  "Resource",
-  "Resource",
-  "Resource",
-  "Resource",
-  "Resource",
-  "Resource",
-  "EX Base",
-  "EX Resource"
+  {
+    "name": "Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-001",
+    "imgUrl": "../images/cards/card/GD01-001.webp?250711"
+  },
+  {
+    "name": "Unicorn Gundam (Destroy Mode)",
+    "dataUrl": "detail.php?detailSearch=GD01-002",
+    "imgUrl": "../images/cards/card/GD01-002.webp?250711"
+  },
+  {
+    "name": "Unicorn Gundam 02 Banshee (Destroy Mode)",
+    "dataUrl": "detail.php?detailSearch=GD01-003",
+    "imgUrl": "../images/cards/card/GD01-003.webp?250711"
+  },
+  {
+    "name": "Guncannon",
+    "dataUrl": "detail.php?detailSearch=GD01-004",
+    "imgUrl": "../images/cards/card/GD01-004.webp?250711"
+  },
+  {
+    "name": "Unicorn Gundam (Unicorn Mode)",
+    "dataUrl": "detail.php?detailSearch=GD01-005",
+    "imgUrl": "../images/cards/card/GD01-005.webp?250711"
+  },
+  {
+    "name": "Delta Plus",
+    "dataUrl": "detail.php?detailSearch=GD01-006",
+    "imgUrl": "../images/cards/card/GD01-006.webp?250711"
+  },
+  {
+    "name": "Noin's Aries",
+    "dataUrl": "detail.php?detailSearch=GD01-007",
+    "imgUrl": "../images/cards/card/GD01-007.webp?250711"
+  },
+  {
+    "name": "Guntank",
+    "dataUrl": "detail.php?detailSearch=GD01-008",
+    "imgUrl": "../images/cards/card/GD01-008.webp?250711"
+  },
+  {
+    "name": "G-Fighter",
+    "dataUrl": "detail.php?detailSearch=GD01-009",
+    "imgUrl": "../images/cards/card/GD01-009.webp?250711"
+  },
+  {
+    "name": "Unicorn Gundam 02 Banshee (Unicorn Mode)",
+    "dataUrl": "detail.php?detailSearch=GD01-010",
+    "imgUrl": "../images/cards/card/GD01-010.webp?250711"
+  },
+  {
+    "name": "Loto",
+    "dataUrl": "detail.php?detailSearch=GD01-011",
+    "imgUrl": "../images/cards/card/GD01-011.webp?250711"
+  },
+  {
+    "name": "Zechs' Leo",
+    "dataUrl": "detail.php?detailSearch=GD01-012",
+    "imgUrl": "../images/cards/card/GD01-012.webp?250711"
+  },
+  {
+    "name": "Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-013",
+    "imgUrl": "../images/cards/card/GD01-013.webp?250711"
+  },
+  {
+    "name": "G-Sky Easy",
+    "dataUrl": "detail.php?detailSearch=GD01-014",
+    "imgUrl": "../images/cards/card/GD01-014.webp?250711"
+  },
+  {
+    "name": "Ball",
+    "dataUrl": "detail.php?detailSearch=GD01-015",
+    "imgUrl": "../images/cards/card/GD01-015.webp?250711"
+  },
+  {
+    "name": "Jegan",
+    "dataUrl": "detail.php?detailSearch=GD01-016",
+    "imgUrl": "../images/cards/card/GD01-016.webp?250711"
+  },
+  {
+    "name": "Stark Jegan",
+    "dataUrl": "detail.php?detailSearch=GD01-017",
+    "imgUrl": "../images/cards/card/GD01-017.webp?250711"
+  },
+  {
+    "name": "ReZEL",
+    "dataUrl": "detail.php?detailSearch=GD01-018",
+    "imgUrl": "../images/cards/card/GD01-018.webp?250711"
+  },
+  {
+    "name": "Byarlant Custom",
+    "dataUrl": "detail.php?detailSearch=GD01-019",
+    "imgUrl": "../images/cards/card/GD01-019.webp?250711"
+  },
+  {
+    "name": "Anksha",
+    "dataUrl": "detail.php?detailSearch=GD01-020",
+    "imgUrl": "../images/cards/card/GD01-020.webp?250711"
+  },
+  {
+    "name": "Pisces",
+    "dataUrl": "detail.php?detailSearch=GD01-021",
+    "imgUrl": "../images/cards/card/GD01-021.webp?250711"
+  },
+  {
+    "name": "Cancer",
+    "dataUrl": "detail.php?detailSearch=GD01-022",
+    "imgUrl": "../images/cards/card/GD01-022.webp?250711"
+  },
+  {
+    "name": "Char's Gelgoog",
+    "dataUrl": "detail.php?detailSearch=GD01-023",
+    "imgUrl": "../images/cards/card/GD01-023.webp?250711"
+  },
+  {
+    "name": "Wing Gundam Zero",
+    "dataUrl": "detail.php?detailSearch=GD01-024",
+    "imgUrl": "../images/cards/card/GD01-024.webp?250711"
+  },
+  {
+    "name": "Gundam Deathscythe",
+    "dataUrl": "detail.php?detailSearch=GD01-025",
+    "imgUrl": "../images/cards/card/GD01-025.webp?250711"
+  },
+  {
+    "name": "Char's Zaku Ⅱ",
+    "dataUrl": "detail.php?detailSearch=GD01-026",
+    "imgUrl": "../images/cards/card/GD01-026.webp?250711"
+  },
+  {
+    "name": "Big Zam",
+    "dataUrl": "detail.php?detailSearch=GD01-027",
+    "imgUrl": "../images/cards/card/GD01-027.webp?250711"
+  },
+  {
+    "name": "Gundam Sandrock",
+    "dataUrl": "detail.php?detailSearch=GD01-028",
+    "imgUrl": "../images/cards/card/GD01-028.webp?250711"
+  },
+  {
+    "name": "Shenlong Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-029",
+    "imgUrl": "../images/cards/card/GD01-029.webp?250711"
+  },
+  {
+    "name": "Rick Dom",
+    "dataUrl": "detail.php?detailSearch=GD01-030",
+    "imgUrl": "../images/cards/card/GD01-030.webp?250711"
+  },
+  {
+    "name": "Gelgoog",
+    "dataUrl": "detail.php?detailSearch=GD01-031",
+    "imgUrl": "../images/cards/card/GD01-031.webp?250711"
+  },
+  {
+    "name": "Gyan",
+    "dataUrl": "detail.php?detailSearch=GD01-032",
+    "imgUrl": "../images/cards/card/GD01-032.webp?250711"
+  },
+  {
+    "name": "Gundam Deathscythe",
+    "dataUrl": "detail.php?detailSearch=GD01-033",
+    "imgUrl": "../images/cards/card/GD01-033.webp?250711"
+  },
+  {
+    "name": "Gundam Heavyarms",
+    "dataUrl": "detail.php?detailSearch=GD01-034",
+    "imgUrl": "../images/cards/card/GD01-034.webp?250711"
+  },
+  {
+    "name": "Zaku Ⅱ",
+    "dataUrl": "detail.php?detailSearch=GD01-035",
+    "imgUrl": "../images/cards/card/GD01-035.webp?250711"
+  },
+  {
+    "name": "Gouf",
+    "dataUrl": "detail.php?detailSearch=GD01-036",
+    "imgUrl": "../images/cards/card/GD01-036.webp?250711"
+  },
+  {
+    "name": "Gogg",
+    "dataUrl": "detail.php?detailSearch=GD01-037",
+    "imgUrl": "../images/cards/card/GD01-037.webp?250711"
+  },
+  {
+    "name": "Adzam",
+    "dataUrl": "detail.php?detailSearch=GD01-038",
+    "imgUrl": "../images/cards/card/GD01-038.webp?250711"
+  },
+  {
+    "name": "Dopp",
+    "dataUrl": "detail.php?detailSearch=GD01-039",
+    "imgUrl": "../images/cards/card/GD01-039.webp?250711"
+  },
+  {
+    "name": "Wing Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-040",
+    "imgUrl": "../images/cards/card/GD01-040.webp?250711"
+  },
+  {
+    "name": "Shenlong Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-041",
+    "imgUrl": "../images/cards/card/GD01-041.webp?250711"
+  },
+  {
+    "name": "Duo's Leo",
+    "dataUrl": "detail.php?detailSearch=GD01-042",
+    "imgUrl": "../images/cards/card/GD01-042.webp?250711"
+  },
+  {
+    "name": "Rasid's Maganac",
+    "dataUrl": "detail.php?detailSearch=GD01-043",
+    "imgUrl": "../images/cards/card/GD01-043.webp?250711"
+  },
+  {
+    "name": "Kshatriya",
+    "dataUrl": "detail.php?detailSearch=GD01-044",
+    "imgUrl": "../images/cards/card/GD01-044.webp?250711"
+  },
+  {
+    "name": "Duel Gundam (Assault Shroud)",
+    "dataUrl": "detail.php?detailSearch=GD01-045",
+    "imgUrl": "../images/cards/card/GD01-045.webp?250711"
+  },
+  {
+    "name": "Buster Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-046",
+    "imgUrl": "../images/cards/card/GD01-046.webp?250711"
+  },
+  {
+    "name": "Shamblo",
+    "dataUrl": "detail.php?detailSearch=GD01-047",
+    "imgUrl": "../images/cards/card/GD01-047.webp?250711"
+  },
+  {
+    "name": "Zaku I Sniper Type",
+    "dataUrl": "detail.php?detailSearch=GD01-048",
+    "imgUrl": "../images/cards/card/GD01-048.webp?250711"
+  },
+  {
+    "name": "Blitz Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-049",
+    "imgUrl": "../images/cards/card/GD01-049.webp?250711"
+  },
+  {
+    "name": "LaGOWE",
+    "dataUrl": "detail.php?detailSearch=GD01-050",
+    "imgUrl": "../images/cards/card/GD01-050.webp?250711"
+  },
+  {
+    "name": "Kshatriya",
+    "dataUrl": "detail.php?detailSearch=GD01-051",
+    "imgUrl": "../images/cards/card/GD01-051.webp?250711"
+  },
+  {
+    "name": "Geara Zulu (Guards Type)",
+    "dataUrl": "detail.php?detailSearch=GD01-052",
+    "imgUrl": "../images/cards/card/GD01-052.webp?250711"
+  },
+  {
+    "name": "Geara Doga (Heavy Armed Type)",
+    "dataUrl": "detail.php?detailSearch=GD01-053",
+    "imgUrl": "../images/cards/card/GD01-053.webp?250711"
+  },
+  {
+    "name": "Duel Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-054",
+    "imgUrl": "../images/cards/card/GD01-054.webp?250711"
+  },
+  {
+    "name": "BuCUE",
+    "dataUrl": "detail.php?detailSearch=GD01-055",
+    "imgUrl": "../images/cards/card/GD01-055.webp?250711"
+  },
+  {
+    "name": "Geara Doga (Sleeves)",
+    "dataUrl": "detail.php?detailSearch=GD01-056",
+    "imgUrl": "../images/cards/card/GD01-056.webp?250711"
+  },
+  {
+    "name": "Dreissen (Sleeves)",
+    "dataUrl": "detail.php?detailSearch=GD01-057",
+    "imgUrl": "../images/cards/card/GD01-057.webp?250711"
+  },
+  {
+    "name": "Galluss-K",
+    "dataUrl": "detail.php?detailSearch=GD01-058",
+    "imgUrl": "../images/cards/card/GD01-058.webp?250711"
+  },
+  {
+    "name": "Zee Zulu",
+    "dataUrl": "detail.php?detailSearch=GD01-059",
+    "imgUrl": "../images/cards/card/GD01-059.webp?250711"
+  },
+  {
+    "name": "Zaku Mariner",
+    "dataUrl": "detail.php?detailSearch=GD01-060",
+    "imgUrl": "../images/cards/card/GD01-060.webp?250711"
+  },
+  {
+    "name": "ZuOOT",
+    "dataUrl": "detail.php?detailSearch=GD01-061",
+    "imgUrl": "../images/cards/card/GD01-061.webp?250711"
+  },
+  {
+    "name": "GOOhN",
+    "dataUrl": "detail.php?detailSearch=GD01-062",
+    "imgUrl": "../images/cards/card/GD01-062.webp?250711"
+  },
+  {
+    "name": "ZnO",
+    "dataUrl": "detail.php?detailSearch=GD01-063",
+    "imgUrl": "../images/cards/card/GD01-063.webp?250711"
+  },
+  {
+    "name": "DINN",
+    "dataUrl": "detail.php?detailSearch=GD01-064",
+    "imgUrl": "../images/cards/card/GD01-064.webp?250711"
+  },
+  {
+    "name": "Freedom Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-065",
+    "imgUrl": "../images/cards/card/GD01-065.webp?250711"
+  },
+  {
+    "name": "Justice Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-066",
+    "imgUrl": "../images/cards/card/GD01-066.webp?250711"
+  },
+  {
+    "name": "Gundam Aerial Rebuild",
+    "dataUrl": "detail.php?detailSearch=GD01-067",
+    "imgUrl": "../images/cards/card/GD01-067.webp?250711"
+  },
+  {
+    "name": "Perfect Strike Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-068",
+    "imgUrl": "../images/cards/card/GD01-068.webp?250711"
+  },
+  {
+    "name": "Strike Rouge",
+    "dataUrl": "detail.php?detailSearch=GD01-069",
+    "imgUrl": "../images/cards/card/GD01-069.webp?250711"
+  },
+  {
+    "name": "Gundam Aerial",
+    "dataUrl": "detail.php?detailSearch=GD01-070",
+    "imgUrl": "../images/cards/card/GD01-070.webp?250711"
+  },
+  {
+    "name": "Gundam Pharact",
+    "dataUrl": "detail.php?detailSearch=GD01-071",
+    "imgUrl": "../images/cards/card/GD01-071.webp?250711"
+  },
+  {
+    "name": "Launcher Strike Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-072",
+    "imgUrl": "../images/cards/card/GD01-072.webp?250711"
+  },
+  {
+    "name": "Sword Strike Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-073",
+    "imgUrl": "../images/cards/card/GD01-073.webp?250711"
+  },
+  {
+    "name": "Chuchu's Demi Trainer",
+    "dataUrl": "detail.php?detailSearch=GD01-074",
+    "imgUrl": "../images/cards/card/GD01-074.webp?250711"
+  },
+  {
+    "name": "Darilbalde",
+    "dataUrl": "detail.php?detailSearch=GD01-075",
+    "imgUrl": "../images/cards/card/GD01-075.webp?250711"
+  },
+  {
+    "name": "Michaelis",
+    "dataUrl": "detail.php?detailSearch=GD01-076",
+    "imgUrl": "../images/cards/card/GD01-076.webp?250711"
+  },
+  {
+    "name": "Strike Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-077",
+    "imgUrl": "../images/cards/card/GD01-077.webp?250711"
+  },
+  {
+    "name": "Mistral",
+    "dataUrl": "detail.php?detailSearch=GD01-078",
+    "imgUrl": "../images/cards/card/GD01-078.webp?250711"
+  },
+  {
+    "name": "Skygrasper",
+    "dataUrl": "detail.php?detailSearch=GD01-079",
+    "imgUrl": "../images/cards/card/GD01-079.webp?250711"
+  },
+  {
+    "name": "Cagalli's Skygrasper",
+    "dataUrl": "detail.php?detailSearch=GD01-080",
+    "imgUrl": "../images/cards/card/GD01-080.webp?250711"
+  },
+  {
+    "name": "M1 Astray",
+    "dataUrl": "detail.php?detailSearch=GD01-081",
+    "imgUrl": "../images/cards/card/GD01-081.webp?250711"
+  },
+  {
+    "name": "Gundam Aerial (Mirasoul Flight Unit)",
+    "dataUrl": "detail.php?detailSearch=GD01-082",
+    "imgUrl": "../images/cards/card/GD01-082.webp?250711"
+  },
+  {
+    "name": "Guel's Dilanza",
+    "dataUrl": "detail.php?detailSearch=GD01-083",
+    "imgUrl": "../images/cards/card/GD01-083.webp?250711"
+  },
+  {
+    "name": "Beguir-Pente",
+    "dataUrl": "detail.php?detailSearch=GD01-084",
+    "imgUrl": "../images/cards/card/GD01-084.webp?250711"
+  },
+  {
+    "name": "Demi Garrison",
+    "dataUrl": "detail.php?detailSearch=GD01-085",
+    "imgUrl": "../images/cards/card/GD01-085.webp?250711"
+  },
+  {
+    "name": "Gundam Lfrith",
+    "dataUrl": "detail.php?detailSearch=GD01-086",
+    "imgUrl": "../images/cards/card/GD01-086.webp?250711"
+  },
+  {
+    "name": "Sayla Mass",
+    "dataUrl": "detail.php?detailSearch=GD01-087",
+    "imgUrl": "../images/cards/card/GD01-087.webp?250711"
+  },
+  {
+    "name": "Banagher Links",
+    "dataUrl": "detail.php?detailSearch=GD01-088",
+    "imgUrl": "../images/cards/card/GD01-088.webp?250711"
+  },
+  {
+    "name": "Riddhe Marcenas",
+    "dataUrl": "detail.php?detailSearch=GD01-089",
+    "imgUrl": "../images/cards/card/GD01-089.webp?250711"
+  },
+  {
+    "name": "Duo Maxwell",
+    "dataUrl": "detail.php?detailSearch=GD01-090",
+    "imgUrl": "../images/cards/card/GD01-090.webp?250711"
+  },
+  {
+    "name": "Chang Wufei",
+    "dataUrl": "detail.php?detailSearch=GD01-091",
+    "imgUrl": "../images/cards/card/GD01-091.webp?250711"
+  },
+  {
+    "name": "M'Quve",
+    "dataUrl": "detail.php?detailSearch=GD01-092",
+    "imgUrl": "../images/cards/card/GD01-092.webp?250711"
+  },
+  {
+    "name": "Marida Cruz",
+    "dataUrl": "detail.php?detailSearch=GD01-093",
+    "imgUrl": "../images/cards/card/GD01-093.webp?250711"
+  },
+  {
+    "name": "Yzak Jule",
+    "dataUrl": "detail.php?detailSearch=GD01-094",
+    "imgUrl": "../images/cards/card/GD01-094.webp?250711"
+  },
+  {
+    "name": "Dearka Elthman",
+    "dataUrl": "detail.php?detailSearch=GD01-095",
+    "imgUrl": "../images/cards/card/GD01-095.webp?250711"
+  },
+  {
+    "name": "Cagalli Yula Athha",
+    "dataUrl": "detail.php?detailSearch=GD01-096",
+    "imgUrl": "../images/cards/card/GD01-096.webp?250711"
+  },
+  {
+    "name": "Guel Jeturk",
+    "dataUrl": "detail.php?detailSearch=GD01-097",
+    "imgUrl": "../images/cards/card/GD01-097.webp?250711"
+  },
+  {
+    "name": "Elan Ceres (Enhanced Person Number 4)",
+    "dataUrl": "detail.php?detailSearch=GD01-098",
+    "imgUrl": "../images/cards/card/GD01-098.webp?250711"
+  },
+  {
+    "name": "Intercept Orders",
+    "dataUrl": "detail.php?detailSearch=GD01-099",
+    "imgUrl": "../images/cards/card/GD01-099.webp?250711"
+  },
+  {
+    "name": "A Show of Resolve",
+    "dataUrl": "detail.php?detailSearch=GD01-100",
+    "imgUrl": "../images/cards/card/GD01-100.webp?250711"
+  },
+  {
+    "name": "Deep Devotion",
+    "dataUrl": "detail.php?detailSearch=GD01-101",
+    "imgUrl": "../images/cards/card/GD01-101.webp?250711"
+  },
+  {
+    "name": "Securing the Supply Line",
+    "dataUrl": "detail.php?detailSearch=GD01-102",
+    "imgUrl": "../images/cards/card/GD01-102.webp?250711"
+  },
+  {
+    "name": "The Stubborn Cog",
+    "dataUrl": "detail.php?detailSearch=GD01-103",
+    "imgUrl": "../images/cards/card/GD01-103.webp?250711"
+  },
+  {
+    "name": "Signs of a Revolution",
+    "dataUrl": "detail.php?detailSearch=GD01-104",
+    "imgUrl": "../images/cards/card/GD01-104.webp?250711"
+  },
+  {
+    "name": "Citizens, Take a Stand!",
+    "dataUrl": "detail.php?detailSearch=GD01-105",
+    "imgUrl": "../images/cards/card/GD01-105.webp?250711"
+  },
+  {
+    "name": "Fortress Defense",
+    "dataUrl": "detail.php?detailSearch=GD01-106",
+    "imgUrl": "../images/cards/card/GD01-106.webp?250711"
+  },
+  {
+    "name": "First Contact",
+    "dataUrl": "detail.php?detailSearch=GD01-107",
+    "imgUrl": "../images/cards/card/GD01-107.webp?250711"
+  },
+  {
+    "name": "Strategic Arms",
+    "dataUrl": "detail.php?detailSearch=GD01-108",
+    "imgUrl": "../images/cards/card/GD01-108.webp?250711"
+  },
+  {
+    "name": "The Path to Victory or Defeat",
+    "dataUrl": "detail.php?detailSearch=GD01-109",
+    "imgUrl": "../images/cards/card/GD01-109.webp?250711"
+  },
+  {
+    "name": "Rasid's Orders",
+    "dataUrl": "detail.php?detailSearch=GD01-110",
+    "imgUrl": "../images/cards/card/GD01-110.webp?250711"
+  },
+  {
+    "name": "Battle of Aces",
+    "dataUrl": "detail.php?detailSearch=GD01-111",
+    "imgUrl": "../images/cards/card/GD01-111.webp?250711"
+  },
+  {
+    "name": "Extreme Hatred",
+    "dataUrl": "detail.php?detailSearch=GD01-112",
+    "imgUrl": "../images/cards/card/GD01-112.webp?250711"
+  },
+  {
+    "name": "The Desert Tiger",
+    "dataUrl": "detail.php?detailSearch=GD01-113",
+    "imgUrl": "../images/cards/card/GD01-113.webp?250711"
+  },
+  {
+    "name": "Assault on Torrington Base",
+    "dataUrl": "detail.php?detailSearch=GD01-114",
+    "imgUrl": "../images/cards/card/GD01-114.webp?250711"
+  },
+  {
+    "name": "Zeon Remnant Forces",
+    "dataUrl": "detail.php?detailSearch=GD01-115",
+    "imgUrl": "../images/cards/card/GD01-115.webp?250711"
+  },
+  {
+    "name": "Stealth Stratagem",
+    "dataUrl": "detail.php?detailSearch=GD01-116",
+    "imgUrl": "../images/cards/card/GD01-116.webp?250711"
+  },
+  {
+    "name": "The Witch and the Bride",
+    "dataUrl": "detail.php?detailSearch=GD01-117",
+    "imgUrl": "../images/cards/card/GD01-117.webp?250711"
+  },
+  {
+    "name": "Overflowing Affection",
+    "dataUrl": "detail.php?detailSearch=GD01-118",
+    "imgUrl": "../images/cards/card/GD01-118.webp?250711"
+  },
+  {
+    "name": "Iron-Fisted Discipline",
+    "dataUrl": "detail.php?detailSearch=GD01-119",
+    "imgUrl": "../images/cards/card/GD01-119.webp?250711"
+  },
+  {
+    "name": "Naval Bombardment",
+    "dataUrl": "detail.php?detailSearch=GD01-120",
+    "imgUrl": "../images/cards/card/GD01-120.webp?250711"
+  },
+  {
+    "name": "Midair Modifications",
+    "dataUrl": "detail.php?detailSearch=GD01-121",
+    "imgUrl": "../images/cards/card/GD01-121.webp?250711"
+  },
+  {
+    "name": "Covert Operative",
+    "dataUrl": "detail.php?detailSearch=GD01-122",
+    "imgUrl": "../images/cards/card/GD01-122.webp?250711"
+  },
+  {
+    "name": "Nahel Argama",
+    "dataUrl": "detail.php?detailSearch=GD01-123",
+    "imgUrl": "../images/cards/card/GD01-123.webp?250711"
+  },
+  {
+    "name": "Side 7",
+    "dataUrl": "detail.php?detailSearch=GD01-124",
+    "imgUrl": "../images/cards/card/GD01-124.webp?250711"
+  },
+  {
+    "name": "Zanzibar",
+    "dataUrl": "detail.php?detailSearch=GD01-125",
+    "imgUrl": "../images/cards/card/GD01-125.webp?250711"
+  },
+  {
+    "name": "Underground Desert Base",
+    "dataUrl": "detail.php?detailSearch=GD01-126",
+    "imgUrl": "../images/cards/card/GD01-126.webp?250711"
+  },
+  {
+    "name": "Gamow",
+    "dataUrl": "detail.php?detailSearch=GD01-127",
+    "imgUrl": "../images/cards/card/GD01-127.webp?250711"
+  },
+  {
+    "name": "Mining Asteroid Palau",
+    "dataUrl": "detail.php?detailSearch=GD01-128",
+    "imgUrl": "../images/cards/card/GD01-128.webp?250711"
+  },
+  {
+    "name": "Kusanagi",
+    "dataUrl": "detail.php?detailSearch=GD01-129",
+    "imgUrl": "../images/cards/card/GD01-129.webp?250711"
+  },
+  {
+    "name": "13th Tactical Testing Sector",
+    "dataUrl": "detail.php?detailSearch=GD01-130",
+    "imgUrl": "../images/cards/card/GD01-130.webp?250711"
+  },
+  {
+    "name": "Fatum-00",
+    "dataUrl": "detail.php?detailSearch=T-011",
+    "imgUrl": "../images/cards/card/T-011.webp?250711"
+  },
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=R-002",
+    "imgUrl": "../images/cards/card/R-002.webp?250711"
+  },
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=R-003",
+    "imgUrl": "../images/cards/card/R-003.webp?250711"
+  },
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=R-004",
+    "imgUrl": "../images/cards/card/R-004.webp?250711"
+  },
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=R-005",
+    "imgUrl": "../images/cards/card/R-005.webp?250711"
+  },
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=R-006",
+    "imgUrl": "../images/cards/card/R-006.webp?250711"
+  },
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=R-007",
+    "imgUrl": "../images/cards/card/R-007.webp?250711"
+  },
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=R-008",
+    "imgUrl": "../images/cards/card/R-008.webp?250711"
+  },
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=R-009",
+    "imgUrl": "../images/cards/card/R-009.webp?250711"
+  },
+  {
+    "name": "EX Base",
+    "dataUrl": "detail.php?detailSearch=EXB-001_p4",
+    "imgUrl": "../images/cards/card/EXB-001_p4.webp?250711"
+  },
+  {
+    "name": "EX Resource",
+    "dataUrl": "detail.php?detailSearch=EXR-001_p4",
+    "imgUrl": "../images/cards/card/EXR-001_p4.webp?250711"
+  }
 ]

@@ -1,39 +1,187 @@
 [
-  "Sinanju",
-  "Sinanju",
-  "Angelo's Geara Zulu",
-  "Angelo's Geara Zulu",
-  "Geara Zulu",
-  "Geara Zulu",
-  "Gaza D (Sleeves)",
-  "Gaza D (Sleeves)",
-  "Dra-C (Sleeves)",
-  "Dra-C (Sleeves)",
-  "Char's Zaku Ⅱ",
-  "Char's Zaku Ⅱ",
-  "Zaku Ⅰ",
-  "Zaku Ⅰ",
-  "Zaku Ⅱ",
-  "Zaku Ⅱ",
-  "Gouf",
-  "Gouf",
-  "Full Frontal",
-  "Full Frontal",
-  "Char Aznable",
-  "Char Aznable",
-  "Indignation",
-  "Indignation",
-  "Close Combat",
-  "Close Combat",
-  "The Blue Giant",
-  "The Blue Giant",
-  "Rewloola",
-  "Rewloola",
-  "Falmel",
-  "Falmel",
-  "Char's Zaku Ⅱ",
-  "Zaku Ⅱ",
-  "Resource",
-  "EX Base",
-  "EX Resource"
+  {
+    "name": "Sinanju",
+    "dataUrl": "detail.php?detailSearch=ST03-001",
+    "imgUrl": "../images/cards/card/ST03-001.webp?250711"
+  },
+  {
+    "name": "Sinanju",
+    "dataUrl": "detail.php?detailSearch=ST03-001_p1",
+    "imgUrl": "../images/cards/card/ST03-001_p1.webp?250711"
+  },
+  {
+    "name": "Angelo's Geara Zulu",
+    "dataUrl": "detail.php?detailSearch=ST03-002",
+    "imgUrl": "../images/cards/card/ST03-002.webp?250711"
+  },
+  {
+    "name": "Angelo's Geara Zulu",
+    "dataUrl": "detail.php?detailSearch=ST03-002_p1",
+    "imgUrl": "../images/cards/card/ST03-002_p1.webp?250711"
+  },
+  {
+    "name": "Geara Zulu",
+    "dataUrl": "detail.php?detailSearch=ST03-003",
+    "imgUrl": "../images/cards/card/ST03-003.webp?250711"
+  },
+  {
+    "name": "Geara Zulu",
+    "dataUrl": "detail.php?detailSearch=ST03-003_p1",
+    "imgUrl": "../images/cards/card/ST03-003_p1.webp?250711"
+  },
+  {
+    "name": "Gaza D (Sleeves)",
+    "dataUrl": "detail.php?detailSearch=ST03-004",
+    "imgUrl": "../images/cards/card/ST03-004.webp?250711"
+  },
+  {
+    "name": "Gaza D (Sleeves)",
+    "dataUrl": "detail.php?detailSearch=ST03-004_p1",
+    "imgUrl": "../images/cards/card/ST03-004_p1.webp?250711"
+  },
+  {
+    "name": "Dra-C (Sleeves)",
+    "dataUrl": "detail.php?detailSearch=ST03-005",
+    "imgUrl": "../images/cards/card/ST03-005.webp?250711"
+  },
+  {
+    "name": "Dra-C (Sleeves)",
+    "dataUrl": "detail.php?detailSearch=ST03-005_p1",
+    "imgUrl": "../images/cards/card/ST03-005_p1.webp?250711"
+  },
+  {
+    "name": "Char's Zaku Ⅱ",
+    "dataUrl": "detail.php?detailSearch=ST03-006",
+    "imgUrl": "../images/cards/card/ST03-006.webp?250711"
+  },
+  {
+    "name": "Char's Zaku Ⅱ",
+    "dataUrl": "detail.php?detailSearch=ST03-006_p1",
+    "imgUrl": "../images/cards/card/ST03-006_p1.webp?250711"
+  },
+  {
+    "name": "Zaku Ⅰ",
+    "dataUrl": "detail.php?detailSearch=ST03-007",
+    "imgUrl": "../images/cards/card/ST03-007.webp?250711"
+  },
+  {
+    "name": "Zaku Ⅰ",
+    "dataUrl": "detail.php?detailSearch=ST03-007_p1",
+    "imgUrl": "../images/cards/card/ST03-007_p1.webp?250711"
+  },
+  {
+    "name": "Zaku Ⅱ",
+    "dataUrl": "detail.php?detailSearch=ST03-008",
+    "imgUrl": "../images/cards/card/ST03-008.webp?250711"
+  },
+  {
+    "name": "Zaku Ⅱ",
+    "dataUrl": "detail.php?detailSearch=ST03-008_p1",
+    "imgUrl": "../images/cards/card/ST03-008_p1.webp?250711"
+  },
+  {
+    "name": "Gouf",
+    "dataUrl": "detail.php?detailSearch=ST03-009",
+    "imgUrl": "../images/cards/card/ST03-009.webp?250711"
+  },
+  {
+    "name": "Gouf",
+    "dataUrl": "detail.php?detailSearch=ST03-009_p1",
+    "imgUrl": "../images/cards/card/ST03-009_p1.webp?250711"
+  },
+  {
+    "name": "Full Frontal",
+    "dataUrl": "detail.php?detailSearch=ST03-010",
+    "imgUrl": "../images/cards/card/ST03-010.webp?250711"
+  },
+  {
+    "name": "Full Frontal",
+    "dataUrl": "detail.php?detailSearch=ST03-010_p1",
+    "imgUrl": "../images/cards/card/ST03-010_p1.webp?250711"
+  },
+  {
+    "name": "Char Aznable",
+    "dataUrl": "detail.php?detailSearch=ST03-011",
+    "imgUrl": "../images/cards/card/ST03-011.webp?250711"
+  },
+  {
+    "name": "Char Aznable",
+    "dataUrl": "detail.php?detailSearch=ST03-011_p1",
+    "imgUrl": "../images/cards/card/ST03-011_p1.webp?250711"
+  },
+  {
+    "name": "Indignation",
+    "dataUrl": "detail.php?detailSearch=ST03-012",
+    "imgUrl": "../images/cards/card/ST03-012.webp?250711"
+  },
+  {
+    "name": "Indignation",
+    "dataUrl": "detail.php?detailSearch=ST03-012_p1",
+    "imgUrl": "../images/cards/card/ST03-012_p1.webp?250711"
+  },
+  {
+    "name": "Close Combat",
+    "dataUrl": "detail.php?detailSearch=ST03-013",
+    "imgUrl": "../images/cards/card/ST03-013.webp?250711"
+  },
+  {
+    "name": "Close Combat",
+    "dataUrl": "detail.php?detailSearch=ST03-013_p1",
+    "imgUrl": "../images/cards/card/ST03-013_p1.webp?250711"
+  },
+  {
+    "name": "The Blue Giant",
+    "dataUrl": "detail.php?detailSearch=ST03-014",
+    "imgUrl": "../images/cards/card/ST03-014.webp?250711"
+  },
+  {
+    "name": "The Blue Giant",
+    "dataUrl": "detail.php?detailSearch=ST03-014_p1",
+    "imgUrl": "../images/cards/card/ST03-014_p1.webp?250711"
+  },
+  {
+    "name": "Rewloola",
+    "dataUrl": "detail.php?detailSearch=ST03-015",
+    "imgUrl": "../images/cards/card/ST03-015.webp?250711"
+  },
+  {
+    "name": "Rewloola",
+    "dataUrl": "detail.php?detailSearch=ST03-015_p1",
+    "imgUrl": "../images/cards/card/ST03-015_p1.webp?250711"
+  },
+  {
+    "name": "Falmel",
+    "dataUrl": "detail.php?detailSearch=ST03-016",
+    "imgUrl": "../images/cards/card/ST03-016.webp?250711"
+  },
+  {
+    "name": "Falmel",
+    "dataUrl": "detail.php?detailSearch=ST03-016_p1",
+    "imgUrl": "../images/cards/card/ST03-016_p1.webp?250711"
+  },
+  {
+    "name": "Char's Zaku Ⅱ",
+    "dataUrl": "detail.php?detailSearch=T-006",
+    "imgUrl": "../images/cards/card/T-006.webp?250711"
+  },
+  {
+    "name": "Zaku Ⅱ",
+    "dataUrl": "detail.php?detailSearch=T-007",
+    "imgUrl": "../images/cards/card/T-007.webp?250711"
+  },
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=R-001_p2",
+    "imgUrl": "../images/cards/card/R-001_p2.webp?250711"
+  },
+  {
+    "name": "EX Base",
+    "dataUrl": "detail.php?detailSearch=EXB-001_p2",
+    "imgUrl": "../images/cards/card/EXB-001_p2.webp?250711"
+  },
+  {
+    "name": "EX Resource",
+    "dataUrl": "detail.php?detailSearch=EXR-001_p2",
+    "imgUrl": "../images/cards/card/EXR-001_p2.webp?250711"
+  }
 ]

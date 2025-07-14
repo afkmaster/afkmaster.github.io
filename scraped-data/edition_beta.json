@@ -1,85 +1,417 @@
 [
-  "Gundam",
-  "Gundam",
-  "Gundam (MA Form)",
-  "GM",
-  "Gundam Aerial (Bit on Form)",
-  "Demi Trainer",
-  "Amuro Ray",
-  "Suletta Mercury",
-  "Suletta Mercury",
-  "Thoroughly Damaged",
-  "Kai's Resolve",
-  "White Base",
-  "Asticassia School of Technology, Earth House",
-  "Wing Gundam",
-  "Wing Gundam",
-  "Wing Gundam (Bird Mode)",
-  "Maganac",
-  "Heero Yuy",
-  "Simultaneous Fire",
-  "Peaceful Timbre",
-  "Saint Gabriel Institute",
-  "Zaku Ⅰ",
-  "Zaku Ⅱ",
-  "Char Aznable",
-  "Char Aznable",
-  "Falmel",
-  "Aile Strike Gundam",
-  "Aile Strike Gundam",
-  "Strike Gundam",
-  "Strike Dagger",
-  "Kira Yamato",
-  "Hawk of Endymion",
-  "Archangel",
-  "Guncannon",
-  "Guncannon",
-  "Unicorn Gundam (Unicorn Mode)",
-  "Guntank",
-  "G-Fighter",
-  "Loto",
-  "Gundam",
-  "Ball",
-  "Jegan",
-  "ReZEL",
-  "Char's Zaku Ⅱ",
-  "Char's Zaku Ⅱ",
-  "Gundam Sandrock",
-  "Rick Dom",
-  "Gelgoog",
-  "Gundam Heavyarms",
-  "Wing Gundam",
-  "Shenlong Gundam",
-  "Perfect Strike Gundam",
-  "Gundam Aerial",
-  "Gundam Aerial",
-  "Launcher Strike Gundam",
-  "Darilbalde",
-  "Michaelis",
-  "Strike Gundam",
-  "M1 Astray",
-  "Banagher Links",
-  "Banagher Links",
-  "Riddhe Marcenas",
-  "Chang Wufei",
-  "Guel Jeturk",
-  "Intercept Orders",
-  "A Show of Resolve",
-  "A Show of Resolve",
-  "Citizens, Take a Stand!",
-  "First Contact",
-  "First Contact",
-  "The Witch and the Bride",
-  "Overflowing Affection",
-  "Overflowing Affection",
-  "Naval Bombardment",
-  "Side 7",
-  "Gundam",
-  "Guncannon",
-  "Guntank",
-  "Char's Zaku Ⅱ",
-  "Resource",
-  "Resource",
-  "EX Base",
-  "EX Resource"
+  {
+    "name": "Gundam",
+    "dataUrl": "detail.php?detailSearch=ST01-001_p2",
+    "imgUrl": "../images/cards/card/ST01-001_p2.webp?250711"
+  },
+  {
+    "name": "Gundam",
+    "dataUrl": "detail.php?detailSearch=ST01-001_p3",
+    "imgUrl": "../images/cards/card/ST01-001_p3.webp?250711"
+  },
+  {
+    "name": "Gundam (MA Form)",
+    "dataUrl": "detail.php?detailSearch=ST01-002_p2",
+    "imgUrl": "../images/cards/card/ST01-002_p2.webp?250711"
+  },
+  {
+    "name": "GM",
+    "dataUrl": "detail.php?detailSearch=ST01-005_p2",
+    "imgUrl": "../images/cards/card/ST01-005_p2.webp?250711"
+  },
+  {
+    "name": "Gundam Aerial (Bit on Form)",
+    "dataUrl": "detail.php?detailSearch=ST01-007_p2",
+    "imgUrl": "../images/cards/card/ST01-007_p2.webp?250711"
+  },
+  {
+    "name": "Demi Trainer",
+    "dataUrl": "detail.php?detailSearch=ST01-008_p2",
+    "imgUrl": "../images/cards/card/ST01-008_p2.webp?250711"
+  },
+  {
+    "name": "Amuro Ray",
+    "dataUrl": "detail.php?detailSearch=ST01-010_p2",
+    "imgUrl": "../images/cards/card/ST01-010_p2.webp?250711"
+  },
+  {
+    "name": "Suletta Mercury",
+    "dataUrl": "detail.php?detailSearch=ST01-011_p2",
+    "imgUrl": "../images/cards/card/ST01-011_p2.webp?250711"
+  },
+  {
+    "name": "Suletta Mercury",
+    "dataUrl": "detail.php?detailSearch=ST01-011_p3",
+    "imgUrl": "../images/cards/card/ST01-011_p3.webp?250711"
+  },
+  {
+    "name": "Thoroughly Damaged",
+    "dataUrl": "detail.php?detailSearch=ST01-012_p2",
+    "imgUrl": "../images/cards/card/ST01-012_p2.webp?250711"
+  },
+  {
+    "name": "Kai's Resolve",
+    "dataUrl": "detail.php?detailSearch=ST01-013_p2",
+    "imgUrl": "../images/cards/card/ST01-013_p2.webp?250711"
+  },
+  {
+    "name": "White Base",
+    "dataUrl": "detail.php?detailSearch=ST01-015_p2",
+    "imgUrl": "../images/cards/card/ST01-015_p2.webp?250711"
+  },
+  {
+    "name": "Asticassia School of Technology, Earth House",
+    "dataUrl": "detail.php?detailSearch=ST01-016_p2",
+    "imgUrl": "../images/cards/card/ST01-016_p2.webp?250711"
+  },
+  {
+    "name": "Wing Gundam",
+    "dataUrl": "detail.php?detailSearch=ST02-001_p2",
+    "imgUrl": "../images/cards/card/ST02-001_p2.webp?250711"
+  },
+  {
+    "name": "Wing Gundam",
+    "dataUrl": "detail.php?detailSearch=ST02-001_p3",
+    "imgUrl": "../images/cards/card/ST02-001_p3.webp?250711"
+  },
+  {
+    "name": "Wing Gundam (Bird Mode)",
+    "dataUrl": "detail.php?detailSearch=ST02-002_p2",
+    "imgUrl": "../images/cards/card/ST02-002_p2.webp?250711"
+  },
+  {
+    "name": "Maganac",
+    "dataUrl": "detail.php?detailSearch=ST02-005_p2",
+    "imgUrl": "../images/cards/card/ST02-005_p2.webp?250711"
+  },
+  {
+    "name": "Heero Yuy",
+    "dataUrl": "detail.php?detailSearch=ST02-010_p2",
+    "imgUrl": "../images/cards/card/ST02-010_p2.webp?250711"
+  },
+  {
+    "name": "Simultaneous Fire",
+    "dataUrl": "detail.php?detailSearch=ST02-012_p2",
+    "imgUrl": "../images/cards/card/ST02-012_p2.webp?250711"
+  },
+  {
+    "name": "Peaceful Timbre",
+    "dataUrl": "detail.php?detailSearch=ST02-013_p2",
+    "imgUrl": "../images/cards/card/ST02-013_p2.webp?250711"
+  },
+  {
+    "name": "Saint Gabriel Institute",
+    "dataUrl": "detail.php?detailSearch=ST02-015_p2",
+    "imgUrl": "../images/cards/card/ST02-015_p2.webp?250711"
+  },
+  {
+    "name": "Zaku Ⅰ",
+    "dataUrl": "detail.php?detailSearch=ST03-007_p2",
+    "imgUrl": "../images/cards/card/ST03-007_p2.webp?250711"
+  },
+  {
+    "name": "Zaku Ⅱ",
+    "dataUrl": "detail.php?detailSearch=ST03-008_p2",
+    "imgUrl": "../images/cards/card/ST03-008_p2.webp?250711"
+  },
+  {
+    "name": "Char Aznable",
+    "dataUrl": "detail.php?detailSearch=ST03-011_p2",
+    "imgUrl": "../images/cards/card/ST03-011_p2.webp?250711"
+  },
+  {
+    "name": "Char Aznable",
+    "dataUrl": "detail.php?detailSearch=ST03-011_p3",
+    "imgUrl": "../images/cards/card/ST03-011_p3.webp?250711"
+  },
+  {
+    "name": "Falmel",
+    "dataUrl": "detail.php?detailSearch=ST03-016_p2",
+    "imgUrl": "../images/cards/card/ST03-016_p2.webp?250711"
+  },
+  {
+    "name": "Aile Strike Gundam",
+    "dataUrl": "detail.php?detailSearch=ST04-001_p2",
+    "imgUrl": "../images/cards/card/ST04-001_p2.webp?250711"
+  },
+  {
+    "name": "Aile Strike Gundam",
+    "dataUrl": "detail.php?detailSearch=ST04-001_p3",
+    "imgUrl": "../images/cards/card/ST04-001_p3.webp?250711"
+  },
+  {
+    "name": "Strike Gundam",
+    "dataUrl": "detail.php?detailSearch=ST04-002_p2",
+    "imgUrl": "../images/cards/card/ST04-002_p2.webp?250711"
+  },
+  {
+    "name": "Strike Dagger",
+    "dataUrl": "detail.php?detailSearch=ST04-005_p2",
+    "imgUrl": "../images/cards/card/ST04-005_p2.webp?250711"
+  },
+  {
+    "name": "Kira Yamato",
+    "dataUrl": "detail.php?detailSearch=ST04-010_p2",
+    "imgUrl": "../images/cards/card/ST04-010_p2.webp?250711"
+  },
+  {
+    "name": "Hawk of Endymion",
+    "dataUrl": "detail.php?detailSearch=ST04-013_p2",
+    "imgUrl": "../images/cards/card/ST04-013_p2.webp?250711"
+  },
+  {
+    "name": "Archangel",
+    "dataUrl": "detail.php?detailSearch=ST04-015_p2",
+    "imgUrl": "../images/cards/card/ST04-015_p2.webp?250711"
+  },
+  {
+    "name": "Guncannon",
+    "dataUrl": "detail.php?detailSearch=GD01-004_p1",
+    "imgUrl": "../images/cards/card/GD01-004_p1.webp?250711"
+  },
+  {
+    "name": "Guncannon",
+    "dataUrl": "detail.php?detailSearch=GD01-004_p2",
+    "imgUrl": "../images/cards/card/GD01-004_p2.webp?250711"
+  },
+  {
+    "name": "Unicorn Gundam (Unicorn Mode)",
+    "dataUrl": "detail.php?detailSearch=GD01-005_p2",
+    "imgUrl": "../images/cards/card/GD01-005_p2.webp?250711"
+  },
+  {
+    "name": "Guntank",
+    "dataUrl": "detail.php?detailSearch=GD01-008_p1",
+    "imgUrl": "../images/cards/card/GD01-008_p1.webp?250711"
+  },
+  {
+    "name": "G-Fighter",
+    "dataUrl": "detail.php?detailSearch=GD01-009_p1",
+    "imgUrl": "../images/cards/card/GD01-009_p1.webp?250711"
+  },
+  {
+    "name": "Loto",
+    "dataUrl": "detail.php?detailSearch=GD01-011_p1",
+    "imgUrl": "../images/cards/card/GD01-011_p1.webp?250711"
+  },
+  {
+    "name": "Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-013_p1",
+    "imgUrl": "../images/cards/card/GD01-013_p1.webp?250711"
+  },
+  {
+    "name": "Ball",
+    "dataUrl": "detail.php?detailSearch=GD01-015_p1",
+    "imgUrl": "../images/cards/card/GD01-015_p1.webp?250711"
+  },
+  {
+    "name": "Jegan",
+    "dataUrl": "detail.php?detailSearch=GD01-016_p1",
+    "imgUrl": "../images/cards/card/GD01-016_p1.webp?250711"
+  },
+  {
+    "name": "ReZEL",
+    "dataUrl": "detail.php?detailSearch=GD01-018_p1",
+    "imgUrl": "../images/cards/card/GD01-018_p1.webp?250711"
+  },
+  {
+    "name": "Char's Zaku Ⅱ",
+    "dataUrl": "detail.php?detailSearch=GD01-026_p1",
+    "imgUrl": "../images/cards/card/GD01-026_p1.webp?250711"
+  },
+  {
+    "name": "Char's Zaku Ⅱ",
+    "dataUrl": "detail.php?detailSearch=GD01-026_p2",
+    "imgUrl": "../images/cards/card/GD01-026_p2.webp?250711"
+  },
+  {
+    "name": "Gundam Sandrock",
+    "dataUrl": "detail.php?detailSearch=GD01-028_p1",
+    "imgUrl": "../images/cards/card/GD01-028_p1.webp?250711"
+  },
+  {
+    "name": "Rick Dom",
+    "dataUrl": "detail.php?detailSearch=GD01-030_p1",
+    "imgUrl": "../images/cards/card/GD01-030_p1.webp?250711"
+  },
+  {
+    "name": "Gelgoog",
+    "dataUrl": "detail.php?detailSearch=GD01-031_p1",
+    "imgUrl": "../images/cards/card/GD01-031_p1.webp?250711"
+  },
+  {
+    "name": "Gundam Heavyarms",
+    "dataUrl": "detail.php?detailSearch=GD01-034_p1",
+    "imgUrl": "../images/cards/card/GD01-034_p1.webp?250711"
+  },
+  {
+    "name": "Wing Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-040_p1",
+    "imgUrl": "../images/cards/card/GD01-040_p1.webp?250711"
+  },
+  {
+    "name": "Shenlong Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-041_p1",
+    "imgUrl": "../images/cards/card/GD01-041_p1.webp?250711"
+  },
+  {
+    "name": "Perfect Strike Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-068_p1",
+    "imgUrl": "../images/cards/card/GD01-068_p1.webp?250711"
+  },
+  {
+    "name": "Gundam Aerial",
+    "dataUrl": "detail.php?detailSearch=GD01-070_p1",
+    "imgUrl": "../images/cards/card/GD01-070_p1.webp?250711"
+  },
+  {
+    "name": "Gundam Aerial",
+    "dataUrl": "detail.php?detailSearch=GD01-070_p2",
+    "imgUrl": "../images/cards/card/GD01-070_p2.webp?250711"
+  },
+  {
+    "name": "Launcher Strike Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-072_p1",
+    "imgUrl": "../images/cards/card/GD01-072_p1.webp?250711"
+  },
+  {
+    "name": "Darilbalde",
+    "dataUrl": "detail.php?detailSearch=GD01-075_p1",
+    "imgUrl": "../images/cards/card/GD01-075_p1.webp?250711"
+  },
+  {
+    "name": "Michaelis",
+    "dataUrl": "detail.php?detailSearch=GD01-076_p1",
+    "imgUrl": "../images/cards/card/GD01-076_p1.webp?250711"
+  },
+  {
+    "name": "Strike Gundam",
+    "dataUrl": "detail.php?detailSearch=GD01-077_p1",
+    "imgUrl": "../images/cards/card/GD01-077_p1.webp?250711"
+  },
+  {
+    "name": "M1 Astray",
+    "dataUrl": "detail.php?detailSearch=GD01-081_p1",
+    "imgUrl": "../images/cards/card/GD01-081_p1.webp?250711"
+  },
+  {
+    "name": "Banagher Links",
+    "dataUrl": "detail.php?detailSearch=GD01-088_p1",
+    "imgUrl": "../images/cards/card/GD01-088_p1.webp?250711"
+  },
+  {
+    "name": "Banagher Links",
+    "dataUrl": "detail.php?detailSearch=GD01-088_p2",
+    "imgUrl": "../images/cards/card/GD01-088_p2.webp?250711"
+  },
+  {
+    "name": "Riddhe Marcenas",
+    "dataUrl": "detail.php?detailSearch=GD01-089_p1",
+    "imgUrl": "../images/cards/card/GD01-089_p1.webp?250711"
+  },
+  {
+    "name": "Chang Wufei",
+    "dataUrl": "detail.php?detailSearch=GD01-091_p1",
+    "imgUrl": "../images/cards/card/GD01-091_p1.webp?250711"
+  },
+  {
+    "name": "Guel Jeturk",
+    "dataUrl": "detail.php?detailSearch=GD01-097_p1",
+    "imgUrl": "../images/cards/card/GD01-097_p1.webp?250711"
+  },
+  {
+    "name": "Intercept Orders",
+    "dataUrl": "detail.php?detailSearch=GD01-099_p1",
+    "imgUrl": "../images/cards/card/GD01-099_p1.webp?250711"
+  },
+  {
+    "name": "A Show of Resolve",
+    "dataUrl": "detail.php?detailSearch=GD01-100_p2",
+    "imgUrl": "../images/cards/card/GD01-100_p2.webp?250711"
+  },
+  {
+    "name": "A Show of Resolve",
+    "dataUrl": "detail.php?detailSearch=GD01-100_p3",
+    "imgUrl": "../images/cards/card/GD01-100_p3.webp?250711"
+  },
+  {
+    "name": "Citizens, Take a Stand!",
+    "dataUrl": "detail.php?detailSearch=GD01-105_p2",
+    "imgUrl": "../images/cards/card/GD01-105_p2.webp?250711"
+  },
+  {
+    "name": "First Contact",
+    "dataUrl": "detail.php?detailSearch=GD01-107_p1",
+    "imgUrl": "../images/cards/card/GD01-107_p1.webp?250711"
+  },
+  {
+    "name": "First Contact",
+    "dataUrl": "detail.php?detailSearch=GD01-107_p2",
+    "imgUrl": "../images/cards/card/GD01-107_p2.webp?250711"
+  },
+  {
+    "name": "The Witch and the Bride",
+    "dataUrl": "detail.php?detailSearch=GD01-117_p2",
+    "imgUrl": "../images/cards/card/GD01-117_p2.webp?250711"
+  },
+  {
+    "name": "Overflowing Affection",
+    "dataUrl": "detail.php?detailSearch=GD01-118_p2",
+    "imgUrl": "../images/cards/card/GD01-118_p2.webp?250711"
+  },
+  {
+    "name": "Overflowing Affection",
+    "dataUrl": "detail.php?detailSearch=GD01-118_p3",
+    "imgUrl": "../images/cards/card/GD01-118_p3.webp?250711"
+  },
+  {
+    "name": "Naval Bombardment",
+    "dataUrl": "detail.php?detailSearch=GD01-120_p1",
+    "imgUrl": "../images/cards/card/GD01-120_p1.webp?250711"
+  },
+  {
+    "name": "Side 7",
+    "dataUrl": "detail.php?detailSearch=GD01-124_p1",
+    "imgUrl": "../images/cards/card/GD01-124_p1.webp?250711"
+  },
+  {
+    "name": "Gundam",
+    "dataUrl": "detail.php?detailSearch=T-001_p1",
+    "imgUrl": "../images/cards/card/T-001_p1.webp?250711"
+  },
+  {
+    "name": "Guncannon",
+    "dataUrl": "detail.php?detailSearch=T-002_p1",
+    "imgUrl": "../images/cards/card/T-002_p1.webp?250711"
+  },
+  {
+    "name": "Guntank",
+    "dataUrl": "detail.php?detailSearch=T-003_p1",
+    "imgUrl": "../images/cards/card/T-003_p1.webp?250711"
+  },
+  {
+    "name": "Char's Zaku Ⅱ",
+    "dataUrl": "detail.php?detailSearch=T-006_p1",
+    "imgUrl": "../images/cards/card/T-006_p1.webp?250711"
+  },
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=R-001_p4",
+    "imgUrl": "../images/cards/card/R-001_p4.webp?250711"
+  },
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=R-001_p5",
+    "imgUrl": "../images/cards/card/R-001_p5.webp?250711"
+  },
+  {
+    "name": "EX Base",
+    "dataUrl": "detail.php?detailSearch=EXB-001_p5",
+    "imgUrl": "../images/cards/card/EXB-001_p5.webp?250711"
+  },
+  {
+    "name": "EX Resource",
+    "dataUrl": "detail.php?detailSearch=EXR-001_p5",
+    "imgUrl": "../images/cards/card/EXR-001_p5.webp?250711"
+  }
 ]

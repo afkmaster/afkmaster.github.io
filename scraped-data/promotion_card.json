@@ -1,9 +1,37 @@
 [
-  "Resource",
-  "Resource",
-  "EX Base",
-  "EX Base",
-  "EX Resource",
-  "EX Resource",
-  "Resource"
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=RP-001",
+    "imgUrl": "../images/cards/card/RP-001.webp?250711"
+  },
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=RP-004",
+    "imgUrl": "../images/cards/card/RP-004.webp?250711"
+  },
+  {
+    "name": "EX Base",
+    "dataUrl": "detail.php?detailSearch=EXBP-001",
+    "imgUrl": "../images/cards/card/EXBP-001.webp?250711"
+  },
+  {
+    "name": "EX Base",
+    "dataUrl": "detail.php?detailSearch=EXBP-002",
+    "imgUrl": "../images/cards/card/EXBP-002.webp?250711"
+  },
+  {
+    "name": "EX Resource",
+    "dataUrl": "detail.php?detailSearch=EXRP-001",
+    "imgUrl": "../images/cards/card/EXRP-001.webp?250711"
+  },
+  {
+    "name": "EX Resource",
+    "dataUrl": "detail.php?detailSearch=EXRP-002",
+    "imgUrl": "../images/cards/card/EXRP-002.webp?250711"
+  },
+  {
+    "name": "Resource",
+    "dataUrl": "detail.php?detailSearch=RP-009",
+    "imgUrl": "../images/cards/card/RP-009.webp?250711"
+  }
 ]
