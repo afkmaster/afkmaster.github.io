@@ -22,7 +22,6 @@ async function getSetIds(url) {
         });
       }
     });
-    console.log(setIds);
     return setIds;
 
   } catch (error) {
@@ -46,7 +45,7 @@ async function getSetData(url, setIds) {
       const $ = cheerio.load(response.data);
       cards = []
       $('.cardInner .cardItem a').each((i, element) => {
-        cards.push(element.children('img').attr('alt'));
+        cards.push($(element).children('img').attr('alt'));
       });
 
       setData[item.nameKey] = cards;
