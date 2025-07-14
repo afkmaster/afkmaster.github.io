@@ -36,7 +36,7 @@ async function getSetIds(url) {
 
 async function getSetData(url, setIds) {
   setData = {}
-  setIds.forEach((item) => {
+  for (const item of setIds) {
     try {
       const formData = new FormData();
       formData.append('package', item.webPackageId);
@@ -57,7 +57,7 @@ async function getSetData(url, setIds) {
       console.error(`Error during request or scraping: ${error.message}`);
       return null;
     }
-  });
+  };
   return setData;
 }
 
