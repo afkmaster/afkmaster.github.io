@@ -11,12 +11,14 @@ async function scrapeWebsite(url) {
     // --- Your scraping logic here ---
     const setIds = [];
     $('.searchFormBox .filterListItems a').each((i, element) => {
-      const dataVal = $(element).attr('data-val');
+      const setId = $(element).attr('data-val');
       const name = $(element).text();
+      const nameKey = name.replace('[', '').replace(']', '').replaceAll(' ', '_').toLowerCase();
       if (dataVal) {
         setIds.push({
           name: name,
-          setId: dataVal
+          nameKey: nameKey,
+          setId: setId
         });
       }
     });
