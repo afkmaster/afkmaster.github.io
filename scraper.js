@@ -53,11 +53,16 @@ async function getSetData(url, setIds) {
         
         const imgSrc = $(element).children('img').attr('data-src').replace('../', '');
         const imgUrl = `${BASE_URL}/${imgSrc}`;
-        
+
+        const dataResponse = await axios.get(dataUrl);
+        const $ = cheerio.load(dataResponse.data);
+        const dataHtml = $(.cardDetailPageCol).html();
+          
         cards.push({
           name: name,
           dataUrl: dataUrl,
-          imgUrl: imgUrl
+          imgUrl: imgUrl,
+          data: dataHtml
         });
       });
 
