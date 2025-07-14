@@ -11,7 +11,7 @@ async function scrapeWebsite(url) {
 
     // --- Your scraping logic here ---
     const filterDataVals = [];
-    $('.filterListItems a').each((i, element) => {
+    $('.searchFormBox .filterListItems a').each((i, element) => {
       console.log(element)
       const dataVal = $(element).attr('data-vals');
       if (dataVal) {
