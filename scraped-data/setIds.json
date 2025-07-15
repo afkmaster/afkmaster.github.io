@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Newtype Rising [GD01]",
+    "nameKey": "newtype_rising_gd01",
+    "webPackageId": "616101"
+  },
+  {
+    "name": "Heroic Beginnings [ST01]",
+    "nameKey": "heroic_beginnings_st01",
+    "webPackageId": "616001"
+  },
+  {
+    "name": "Wings of Advance [ST02]",
+    "nameKey": "wings_of_advance_st02",
+    "webPackageId": "616002"
+  },
+  {
+    "name": "Zeon's Rush [ST03]",
+    "nameKey": "zeons_rush_st03",
+    "webPackageId": "616003"
+  },
+  {
+    "name": "SEED Strike [ST04]",
+    "nameKey": "seed_strike_st04",
+    "webPackageId": "616004"
+  },
+  {
+    "name": "Edition Beta",
+    "nameKey": "edition_beta",
+    "webPackageId": "616000"
+  },
+  {
+    "name": "Promotion card",
+    "nameKey": "promotion_card",
+    "webPackageId": "616901"
+  }
+]
