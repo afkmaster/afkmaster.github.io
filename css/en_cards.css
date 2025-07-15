@@ -1,0 +1,151 @@
+.lang-th {
+    --text-font-family: Noto Sans Thai, -apple-system, sans-serif
+}
+
+.lang-th.font02 {
+    --text-font-family: Bai Jamjuree, -apple-system, sans-serif
+}
+
+.lang-th.font03 {
+    --text-font-family: Athiti, -apple-system, sans-serif
+}
+
+.lang-zh-tw {
+    --text-font-family: Noto Sans TC, -apple-system, sans-serif
+}
+
+.lang-zh-cn {
+    --text-font-family: Noto Sans SC, -apple-system, sans-serif
+}
+
+.lang-en {
+    --text-font-family: Zen Kaku Gothic New, Noto Sans JP, -apple-system, sans-serif
+}
+
+.lang-ja {
+    --text-font-family: Zen Kaku Gothic New, Noto Sans JP, -apple-system, sans-serif
+}
+
+@media(min-width: 1100px) {
+    .pc {
+        display:block !important
+    }
+
+    .sp {
+        display: none !important
+    }
+
+    .pcInline {
+        display: inline !important
+    }
+
+    .spInline {
+        display: none !important
+    }
+}
+
+@media(max-width: 1099.9px) {
+    .pc {
+        display:none !important
+    }
+
+    .sp {
+        display: block !important
+    }
+
+    .pcInline {
+        display: none !important
+    }
+
+    .spInline {
+        display: inline !important
+    }
+}
+
+@media(min-width: 1100px) {
+    .resultCol .resultTxt .num {
+        margin-right:.2em
+    }
+}
+
+@media(max-width: 1099.9px) {
+    .resultCol .resultTxt .num {
+        margin-right:.2em
+    }
+}
+
+.pagerCol .pagerArrowBtn.prevBtn span {
+    text-align: left
+}
+
+.pagerCol .pagerArrowBtn.nextBtn span {
+    text-align: right
+}
+
+@media(max-width: 1099.9px) {
+    #cardlist-detail .cardDataCol .dataBox.side .dataTxt {
+        font-size:4vw;
+        letter-spacing: -0.01rem
+    }
+}
+
+@media(max-width: 1099.9px) {
+    #cardlist-detail .cardDataCol .dataTit {
+        font-size:3.8vw;
+        margin: 0 1vw 0 0
+    }
+}
+
+@media(max-width: 1099.9px) {
+    .btn-open {
+        width:31.3333333333vw
+    }
+}
+
+@media(min-width: 1100px) {
+    .btn-open {
+        width:120px
+    }
+}
+
+@media(max-width: 1099.9px) {
+    .openBtnCol {
+        width:42%
+    }
+}
+
+@media(max-width: 1099.9px) {
+    .filter-sort .filterSelectValue .toggleBtn {
+        width:64vw
+    }
+}
+
+@media(min-width: 1100px) {
+    .filter-sort .filterSelectValue .toggleBtn {
+        width:278px
+    }
+}
+
+@media(min-width: 1100px) {
+    .filter-sort .filterList {
+        max-width:268px
+    }
+}
+
+@media(max-width: 1099.9px) {
+    .searchColSet-package .filterSelectValue .toggleBtn {
+        width:64.2666666667vw
+    }
+}
+
+.filterColItem a.filterColItemHead .selectionsNum,.filterColItem p.filterColItemHead .selectionsNum {
+    margin-right: .2em
+}
+
+.checkboxItem a {
+    font-weight: 500
+}
+
+.btn-reset {
+    letter-spacing: normal
+}
