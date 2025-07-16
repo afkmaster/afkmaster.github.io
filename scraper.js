@@ -86,11 +86,11 @@ async function getSetData(url, setIds) {
       fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    const setIdsFilePath = path.join(outputDir, 'set_ids.json');
+    const setIdsFilePath = path.join(__dirname, outputDir, 'set_ids.json');
     fs.writeFileSync(setIdsFilePath, JSON.stringify(setIds, null, 2), 'utf-8');
     
     for (const [key, cards] of Object.entries(setData)) {
-      const outputFilePath = path.join(outputDir, `${key}.json`);
+      const outputFilePath = path.join(__dirname, outputDir, `${key}.json`);
       
       fs.writeFileSync(outputFilePath, JSON.stringify(cards, null, 2), 'utf-8');
       console.log(`Data successfully written to ${outputFilePath}`);
