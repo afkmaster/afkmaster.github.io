@@ -51,7 +51,7 @@ async function getSetData(url, setIds) {
         const name = $(elem).children('img').attr('alt')
         const dataUrl = `${BASE_URL}/cards/${$(elem).attr('data-src')}`;
         
-        const imgSrc = $(elem).children('img').attr('data-src').replace('../', '');
+        const imgSrc = $(elem).children('img').attr('data-src').replace('../', '').split('?')[0];
         const imgUrl = `${BASE_URL}/${imgSrc}`;
 
         const dataResponse = await axios.get(dataUrl);
