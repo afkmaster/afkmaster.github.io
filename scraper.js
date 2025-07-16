@@ -82,6 +82,7 @@ async function getSetData(url, setIds) {
   if (setIds) {
     const setData = await getSetData(url, setIds);
     const outputDir = "scraped-data";
+    
     if (!fs.existsSync(outputDir)) {
       fs.mkdirSync(outputDir, { recursive: true });
     }
