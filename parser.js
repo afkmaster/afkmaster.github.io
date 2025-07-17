@@ -29,8 +29,7 @@ const path = require('path');
           .attr('alt', card.name)
           .attr('src', card.imgUrl);
 
-        a.text(card.name)
-          .addClass('cardStr')
+        a.addClass('cardStr')
           .append(img)
 
         const $details = cheerio.load(card.data);
