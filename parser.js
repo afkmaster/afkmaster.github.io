@@ -38,7 +38,7 @@ const path = require('path');
         button.addClass('details-button')
           .addClass('details-button-close');
 
-        $details('.cardDetailPageCol').append(button);
+        //$details('.cardDetailPageCol').append(button);
         $details('.btnCol').empty();
         $details('.cardImage img').attr('src', card.imgUrl);
 
