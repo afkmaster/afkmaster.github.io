@@ -1571,16 +1571,16 @@ h6.searchColTit {
 }
 
 body#cardlist-detail {
-    background: rgba(0,0,0,0)
+    background: rgba(0,0,0,0);
 }
 
 body#cardlist-detail:before {
-    display: none
+    display: none;
 }
 
 @media(min-width: 1100px) {
     #cardlist-detail main {
-        padding:44px
+        padding:44px;
     }
 }
 
@@ -1589,13 +1589,13 @@ body#cardlist-detail:before {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 #cardlist-detail .cardDetailPageCol {
     background-color: rgba(255,255,255);
     box-shadow: 0 0 95px rgba(170,170,170,.23),0 0 29px rgba(4,13,32,.19);
-    padding: 0
+    padding: 0;
 }
 
 @media(min-width: 1100px) {
@@ -1603,14 +1603,13 @@ body#cardlist-detail:before {
         width: auto;
         max-width: 1046px;
         margin: auto;
-        display: none;
     }
 
     #cardlist-detail .cardDetailPageCol.is-fixed {
         position: fixed;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%)
+        transform: translate(-50%, -50%);
     }
 }
 
