@@ -5,7 +5,7 @@ const path = require('path');
 (() => {
   const scrapedDir = 'scraped-data';
   const setIdsFile = path.join(__dirname, scrapedDir, 'set_ids.json');
-  const templatePath = path.join(__dirname, 'test.html');
+  const templatePath = path.join(__dirname, 'index.html');
   
   try {
     const template = fs.readFileSync(templatePath, 'utf8');
