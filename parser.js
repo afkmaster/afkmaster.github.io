@@ -32,10 +32,11 @@ const path = require('path');
         a.text(card.name)
           .addClass('cardStr')
           .append(img)
-        
+
+        const details = cheerio.load(card.data);
         listItem.addClass('cardItem')
           .append(a)
-          .append(card.data);
+          .append(details);
         cardList.append(listItem).append('\n');
       }
       
