@@ -1365,6 +1365,23 @@ h6.searchColTit {
     backdrop-filter: blur(8px) !important
 }
 
+#cardlist .details-button {
+    background: rgba(30, 30, 30, .6);
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 44px;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    transition: color .2s;
+    vertical-align: top;
+    visibility: inherit;
+    width: 44px;
+}
+
 #cardlist .fancybox-bg {
     background: rgba(0,0,0,0)
 }
@@ -1523,18 +1540,15 @@ h6.searchColTit {
     }
 }
 
-#cardlist .fancybox-button--close svg {
-    display: none
-}
 
 @media(min-width: 1100px) {
-    #cardlist .fancybox-button--close {
+    #cardlist .details-button-close {
         width:64px;
         height: 64px;
         backdrop-filter: blur(4px)
     }
 
-    #cardlist .fancybox-button--close:before {
+    #cardlist .details-button-close:before {
         content: "";
         position: absolute;
         top: 50%;
@@ -1547,16 +1561,12 @@ h6.searchColTit {
 }
 
 @media(max-width: 1099.9px) {
-    #cardlist .fancybox-button--close {
+    #cardlist .details-button-close {
         background:rgba(0,0,0,0);
         width: 30.2666666667vw;
         height: 12vw;
         background: url("https://www.gundam-gcg.com/images/common/btn_close.png") center/cover no-repeat;
         margin-left: auto
-    }
-
-    #cardlist .fancybox-button--close svg {
-        display: none
     }
 }
 
