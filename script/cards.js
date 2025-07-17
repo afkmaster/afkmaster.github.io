@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   $('.cardInner a.cardStr').on('click', function() {
-    const body = document.querySelector('body');
+    const body = document.querySelector('html');
     const cardDetails = this.parentElement.querySelector('.cardDetailPageCol');
     const bg = this.parentElement.querySelector('.detailBg');
     
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   $('.cardInner .detailBg').on('click', function() {
-    const body = document.querySelector('body');
+    const body = document.querySelector('html');
     const cardDetails = this.parentElement.querySelector('.cardDetailPageCol');
     
     body.classList.remove('show-details');
