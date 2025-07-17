@@ -8,7 +8,7 @@ const path = require('path');
   const templatePath = path.join(__dirname, 'test.html');
   
   try {
-    const template = await fs.promises.readFile(templatePath, 'utf8');
+    const template = fs.readFile(templatePath, 'utf8');
     const $ = cheerio.load(template);
     const cardList = $('.cardInner');
     
@@ -34,7 +34,7 @@ const path = require('path');
       cardList.append(listItem);
       
       const newHtml = $.html();
-      await fs.promises.writeFile(templatePath, newHtml, 'utf8');
+      fs.writeFile(templatePath, newHtml, 'utf8');
     }
   } catch (err) {
     if (err.code === 'ENOENT') {
