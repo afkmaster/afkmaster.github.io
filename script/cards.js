@@ -1,14 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const cardListContainer = document.querySelector('.cardInner');
-  
-  cardListContainer.addEventListener('click', function(event) {
-    const card = event.target.closest('a.cardStr');
+  $('.cardInner a.cardStr').on('click', function() {
     
-    if (card) {
-      const body = document.querySelector('body');
-      const cardDetails = card.nextElementSibling;
-      body.classList.add('show-details');
-      cardDetails.classList.add('active');
-    }
+    const body = document.querySelector('body');
+    const cardDetails = this.nextElementSibling;
+    body.classList.add('show-details');
+    cardDetails.classList.add('active');
   });
 });
