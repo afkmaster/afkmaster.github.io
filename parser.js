@@ -32,27 +32,40 @@ const path = require('path');
         a.addClass('cardStr')
           .append(img)
 
-        const detailsContainer = $('<div>')
-          .addClass('details-container');
-
-        const detailsInner = $('<div>')
-          .addClass('details-inner');
+        const detailsContainer = $('<div>').addClass('details-container');
+        const detailsInner = $('<div>').addClass('details-inner');
         
         const $details = cheerio.load(card.data);
         
         const button = $('<button>')
           .addClass('details-button')
-          .addClass('details-button-close');
+          .addClass('details-button--close');
 
         //$details('.cardDetailPageCol').append(button);
         $details('.btnCol').empty();
         $details('.cardImage img').attr('src', card.imgUrl);
 
-        const bg = $('<div>')
-          .addClass('detailBg');
+        const navigation = $('<div>')
+          .addClass('details-container');
+
+        const navButtonLeft = $('<button>')
+          .addClass('details-button')
+          .addClass('details-button--arrow-left')
+          .attr('title', 'Previous');
+
+        const navButtonRight = $('<button>')
+          .addClass('details-button')
+          .addClass('details-button--arrow-right')
+          .attr('title', 'Next')
+
+        navigation.append(navButtonLeft)
+          .append(navButtonRight);
+        
+        const bg = $('<div>').addClass('detailBg');
         
         detailsInner.append($details.html());
-        detailsContainer.append(detailsInner)
+        detailsContainer.append(navigation)
+          .append(detailsInner)
           .append(bg);
         
         listItem.addClass('cardItem')
