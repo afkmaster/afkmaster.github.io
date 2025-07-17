@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   $('.cardInner .detailBg').on('click', function() {
     const body = document.querySelector('html');
-    const detailsContainer = this.parentElement.querySelector('.details-container');
+    const detailsContainer = this.parentElement;
     
     body.classList.remove('show-details');
     detailsContainer.classList.remove('active');
