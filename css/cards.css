@@ -1590,6 +1590,11 @@ body#cardlist-detail:before {
     left: 0;
     width: 100%;
     height: 100%;
+    display: none;
+}
+
+#cardlist-detail .detailBg.active {
+    display: block;
 }
 
 #cardlist-detail .cardDetailPageCol {
