@@ -33,6 +33,12 @@ const path = require('path');
           .append(img)
 
         const $details = cheerio.load(card.data);
+        
+        const button = $('<button>');
+        button.addClass('details-button-close');
+
+        $details.append(button);
+        
         listItem.addClass('cardItem')
           .append(a)
           .append($details.html());
