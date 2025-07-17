@@ -1440,7 +1440,7 @@ h6.searchColTit {
     display: none
 }
 
-#cardlist .fancybox-button--arrow_left,#cardlist .fancybox-button--arrow_right {
+#cardlist .details-button--arrow-left,#cardlist .details-button--arrow-right {
     width: 76px;
     height: 48px;
     border-radius: 100px;
@@ -1453,25 +1453,25 @@ h6.searchColTit {
 }
 
 @media(min-width: 1100px) {
-    #cardlist .fancybox-button--arrow_left,#cardlist .fancybox-button--arrow_right {
+    #cardlist .details-button--arrow-left,#cardlist .details-button--arrow-right {
         transition:.3s ease
     }
 
-    #cardlist .fancybox-button--arrow_left::after,#cardlist .fancybox-button--arrow_left::before,#cardlist .fancybox-button--arrow_left *,#cardlist .fancybox-button--arrow_right::after,#cardlist .fancybox-button--arrow_right::before,#cardlist .fancybox-button--arrow_right * {
+    #cardlist .details-button--arrow-left::after,#cardlist .details-button--arrow-left::before,#cardlist .details-button--arrow-left *,#cardlist .details-button--arrow-right::after,#cardlist .details-button--arrow-right::before,#cardlist .details-button--arrow-right * {
         transition: .3s ease
     }
 
-    #cardlist .fancybox-button--arrow_left:hover,#cardlist .fancybox-button--arrow_right:hover {
+    #cardlist .details-button--arrow-left:hover,#cardlist .details-button--arrow-right:hover {
         transform: scale(1.1)
     }
 
-    #cardlist .fancybox-button--arrow_left:hover::after,#cardlist .fancybox-button--arrow_left:hover::before,#cardlist .fancybox-button--arrow_left:hover *,#cardlist .fancybox-button--arrow_right:hover::after,#cardlist .fancybox-button--arrow_right:hover::before,#cardlist .fancybox-button--arrow_right:hover * {
+    #cardlist .details-button--arrow-left:hover::after,#cardlist .details-button--arrow-left:hover::before,#cardlist .details-button--arrow-left:hover *,#cardlist .details-button--arrow-right:hover::after,#cardlist .details-button--arrow-right:hover::before,#cardlist .details-button--arrow-right:hover * {
         transform: scale(0.9)
     }
 }
 
 @media(max-width: 1099.9px) {
-    #cardlist .fancybox-button--arrow_left,#cardlist .fancybox-button--arrow_right {
+    #cardlist .details-button--arrow-left,#cardlist .details-button--arrow-right {
         top:50%;
         transform: translate(-50%, -50%);
         width: 17.3333333333vw;
@@ -1482,7 +1482,7 @@ h6.searchColTit {
     }
 }
 
-#cardlist .fancybox-button--arrow_left::after,#cardlist .fancybox-button--arrow_right::after {
+#cardlist .details-button--arrow-left::after,#cardlist .details-button--arrow-right::after {
     content: "";
     position: absolute;
     width: 29px;
@@ -1496,17 +1496,17 @@ h6.searchColTit {
 }
 
 @media(max-width: 1099.9px) {
-    #cardlist .fancybox-button--arrow_left::after,#cardlist .fancybox-button--arrow_right::after {
+    #cardlist .details-button--arrow-left::after,#cardlist .details-button--arrow-right::after {
         width:4.2666666667vw;
         height: 3.2vw
     }
 }
 
-#cardlist .fancybox-button--arrow_left {
+#cardlist .details-button--arrow-left {
     left: calc(50% - 568px)
 }
 
-#cardlist .fancybox-button--arrow_left::after {
+#cardlist .details-button--arrow-left::after {
     background: url("https://www.gundam-gcg.com/images/common/arrow_left.png") no-repeat;
     background-size: contain;
     background-position: center;
@@ -1514,29 +1514,29 @@ h6.searchColTit {
 }
 
 @media(max-width: 1099.9px) {
-    #cardlist .fancybox-button--arrow_left {
+    #cardlist .details-button--arrow-left {
         left:calc(50% - 29.8666666667vw)
     }
 
-    #cardlist .fancybox-button--arrow_left::after {
+    #cardlist .details-button--arrow-left::after {
         left: 6.1333333333vw
     }
 }
 
-#cardlist .fancybox-button--arrow_right {
+#cardlist .details-button--arrow-right {
     right: calc(50% - 554px)
 }
 
-#cardlist .fancybox-button--arrow_right::after {
+#cardlist .details-button--arrow-right::after {
     right: 22px
 }
 
 @media(max-width: 1099.9px) {
-    #cardlist .fancybox-button--arrow_right {
+    #cardlist .details-button--arrow-right {
         right:calc(50% - 7.4666666667vw)
     }
 
-    #cardlist .fancybox-button--arrow_right::after {
+    #cardlist .details-button--arrow-right::after {
         right: 6.1333333333vw
     }
 }
