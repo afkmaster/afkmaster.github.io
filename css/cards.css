@@ -1593,7 +1593,7 @@ body#cardlist-detail:before {
 }
 
 #cardlist-detail .cardDetailPageCol {
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255,255,255);
     box-shadow: 0 0 95px rgba(170,170,170,.23),0 0 29px rgba(4,13,32,.19);
     padding: 0
 }
@@ -1621,7 +1621,7 @@ body.show-details {
 
 #cardlist-detail .cardDetailPageCol.active {
     display: block;
-    width: auto;
+    width: 100%;
     position: fixed;
     left: 50%;
     top: 5%;
