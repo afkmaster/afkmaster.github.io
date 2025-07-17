@@ -1,20 +1,20 @@
 document.addEventListener('DOMContentLoaded', function() {
   $('.cardInner a.cardStr').on('click', function() {
     const body = document.querySelector('html');
-    const cardDetails = this.parentElement.querySelector('.cardDetailPageCol');
+    const detailsContainer = this.parentElement.querySelector('.details-container');
     const bg = this.parentElement.querySelector('.detailBg');
     
     body.classList.add('show-details');
-    cardDetails.classList.add('active');
+    detailsContainer.classList.add('active');
     bg.classList.add('active');
   });
 
   $('.cardInner .detailBg').on('click', function() {
     const body = document.querySelector('html');
-    const cardDetails = this.parentElement.querySelector('.cardDetailPageCol');
+    const detailsContainer = this.parentElement.querySelector('.details-container');
     
     body.classList.remove('show-details');
-    cardDetails.classList.remove('active');
+    detailsContainer.classList.remove('active');
     this.classList.remove('active');
   });
 });
