@@ -33,11 +33,10 @@ const path = require('path');
           .addClass('cardStr')
           .append(img)
 
-        const details = cheerio.load(card.data);
-        console.log(details);
+        const $details = cheerio.load(card.data);
         listItem.addClass('cardItem')
           .append(a)
-          .append(details);
+          .append($details.html());
         cardList.append(listItem).append('\n');
       }
       
