@@ -56,7 +56,8 @@ async function getSetData(url, setIds) {
 
         const dataResponse = await axios.get(dataUrl);
         const $d = cheerio.load(dataResponse.data);
-        const dataHtml = $d('.cardDetailPageCol').html();
+        const cardDetail = $d('.cardDetailPageCol');
+        const dataHtml = $d.html(cardDetail);
           
         cards.push({
           name: name,
