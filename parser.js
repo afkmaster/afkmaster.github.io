@@ -41,10 +41,14 @@ const path = require('path');
         $details('.cardDetailPageCol').append(button);
         $details('.btnCol').empty();
         $details('.cardImage img').attr('src', card.imgUrl);
+
+        const bg = $('<div>');
+        bg.addClass('detailBg');
         
         listItem.addClass('cardItem')
           .append(a)
-          .append($details.html());
+          .append($details.html())
+          .append(bg);
         cardList.append(listItem).append('\n');
       }
       
