@@ -34,6 +34,7 @@ const path = require('path');
           .append(img)
 
         const details = cheerio.load(card.data);
+        console.log(details);
         listItem.addClass('cardItem')
           .append(a)
           .append(details);
