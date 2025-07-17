@@ -1602,7 +1602,6 @@ body#cardlist-detail:before {
     background-color: rgba(255,255,255);
     box-shadow: 0 0 95px rgba(170,170,170,.23),0 0 29px rgba(4,13,32,.19);
     padding: 0;
-    display: none;
 }
 
 @media(min-width: 1100px) {
@@ -1610,6 +1609,8 @@ body#cardlist-detail:before {
         width: auto;
         max-width: 1046px;
         margin: auto;
+        height: 100%;
+        overflow: auto;
     }
 
     #cardlist-detail .cardDetailPageCol.is-fixed {
@@ -1630,6 +1631,11 @@ html.show-details {
     left: 0;
     width: 100%;
     height: 100%;
+    display: none;
+}
+
+#cardlist-detail .details-container.active {
+    display: block;
 }
 
 #cardlist-detail .details-inner {
@@ -1638,19 +1644,8 @@ html.show-details {
     padding: 44px;
 }
 
-#cardlist-detail .cardDetailPageCol.active {
-    display: block;
-    width: 100%;
-    position: fixed;
-    left: 50%;
-    top: 5%;
-    transform: translate(-50%, 0);
-    overflow-y: scroll;
-    height: 100%;
-}
-
 #cardlist-detail .cardDetailPageContent {
-    position: relative
+    position: relative;
 }
 
 @media(max-width: 1099.9px) {
