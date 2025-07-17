@@ -1603,6 +1603,8 @@ body#cardlist-detail:before {
     background-color: rgba(255,255,255);
     box-shadow: 0 0 95px rgba(170,170,170,.23),0 0 29px rgba(4,13,32,.19);
     padding: 0;
+    height: 100%;
+    overflow: auto;
 }
 
 @media(min-width: 1100px) {
@@ -1610,8 +1612,6 @@ body#cardlist-detail:before {
         width: auto;
         max-width: 1046px;
         margin: auto;
-        height: 100%;
-        overflow: auto;
     }
 
     #cardlist-detail .cardDetailPageCol.is-fixed {
