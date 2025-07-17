@@ -1590,9 +1590,10 @@ body#cardlist-detail:before {
 
 @media(min-width: 1100px) {
     #cardlist-detail .cardDetailPageCol {
-        width:100%;
+        width: auto;
         max-width: 1046px;
-        margin: auto
+        margin: auto;
+        display: none;
     }
 
     #cardlist-detail .cardDetailPageCol.is-fixed {
@@ -1601,6 +1602,22 @@ body#cardlist-detail:before {
         left: 50%;
         transform: translate(-50%, -50%)
     }
+}
+
+body.show-details {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#cardlist-detail .cardDetailPageCol .active {
+    display: block;
+    width: auto;
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, 0);
+    overflow-y: scroll;
+    height: 100%;
 }
 
 #cardlist-detail .cardDetailPageContent {
