@@ -12,6 +12,8 @@ const path = require('path');
     const $ = cheerio.load(template);
     const cardList = $('.cardInner');
     
+    cardList.empty();
+    
     const data = fs.readFileSync(setIdsFile, 'utf8');
     const jsonData = JSON.parse(data);
 
@@ -21,16 +23,18 @@ const path = require('path');
       const setJsonData = JSON.parse(setData);
       
       const listItem = $('<li>');
-      
-      // Append the raw HTML content from cardItem.data directly into the <li>
-      // Cheerio will parse this HTML snippet and append its DOM representation.
+
+      const a = $('<a>');
+      const img = $('<img>')
+        .attr('src', set.imgUrl);
+
+      a.append(img);
+      listItem.append(a);
       listItem.append(setJsonData.data);
-      
-      // Add a class for styling if desired (e.g., to make each card item distinct)
-      listItem.addClass('generated-card-item');
-      
-      // Append the new <li> to the <ul>
       cardList.append(listItem);
+      
+      const newHtml = $.html();
+      await fs.promises.writeFile(templatePath, newHtml, 'utf8');
     }
   } catch (err) {
     if (err.code === 'ENOENT') {
