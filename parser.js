@@ -32,23 +32,32 @@ const path = require('path');
         a.addClass('cardStr')
           .append(img)
 
+        const detailsContainer = $('<div>')
+          .addClass('details-container');
+
+        const detailsInner = $('<div>')
+          .addClass('details-inner');
+        
         const $details = cheerio.load(card.data);
         
-        const button = $('<button>');
-        button.addClass('details-button')
+        const button = $('<button>')
+          .addClass('details-button')
           .addClass('details-button-close');
 
         //$details('.cardDetailPageCol').append(button);
         $details('.btnCol').empty();
         $details('.cardImage img').attr('src', card.imgUrl);
 
-        const bg = $('<div>');
-        bg.addClass('detailBg');
+        const bg = $('<div>')
+          .addClass('detailBg');
+        
+        detailsInner.append($details.html());
+        detailsContainer.append(detailsInner)
+          .append(bg);
         
         listItem.addClass('cardItem')
           .append(a)
-          .append($details.html())
-          .append(bg);
+          .append(detailsContainer);
         cardList.append(listItem).append('\n');
       }
       
