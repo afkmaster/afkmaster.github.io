@@ -31,7 +31,7 @@ const path = require('path');
         a.append(img);
         listItem.append(a);
         listItem.append(setJsonData.data);
-        cardList.append(listItem);
+        cardList.append(listItem).append('\n');
       }
       
       const newHtml = $.html();
