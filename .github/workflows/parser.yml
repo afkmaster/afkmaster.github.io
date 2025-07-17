@@ -4,7 +4,7 @@ on:
   workflow_dispatch: # Allows manual triggering
 
 jobs:
-  scrape-and-commit:
+  parse-and-commit:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
