@@ -37,7 +37,8 @@ const path = require('path');
         const button = $('<button>');
         button.addClass('details-button-close');
 
-        $details.append(button);
+        $details.('.cardDetailPageCol ').append(button);
+        $details.('.btnCol').empty();
         
         listItem.addClass('cardItem')
           .append(a)
