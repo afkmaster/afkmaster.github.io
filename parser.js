@@ -26,12 +26,16 @@ const path = require('path');
         const listItem = $('<li>');
         const a = $('<a>');
         const img = $('<img>')
+          .attr('alt', card.name)
           .attr('src', card.imgUrl);
-  
-        a.append(img);
-        listItem.append(a)
-          .append(setJsonData.data)
-          .addClass('cardItem');
+
+        a.text(card.name)
+          .addClass('cardStr')
+          .append(img)
+        
+        listItem.addClass('cardItem')
+          .append(a)
+          .append(card.data);
         cardList.append(listItem).append('\n');
       }
       
