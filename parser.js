@@ -29,8 +29,9 @@ const path = require('path');
           .attr('src', card.imgUrl);
   
         a.append(img);
-        listItem.append(a);
-        listItem.append(setJsonData.data);
+        listItem.append(a)
+          .append(setJsonData.data)
+          .addClass('cardItem');
         cardList.append(listItem).append('\n');
       }
       
