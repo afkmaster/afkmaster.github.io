@@ -1431,13 +1431,10 @@ h6.searchColTit {
 }
 
 @media(min-width: 1100px) {
-    #cardlist .details-navigation .fancybox-button {
-        top:calc(50% - 8px)
+    #cardlist .details-navigation .details-button {
+        top: 50%;
+        z-index: 3;
     }
-}
-
-#cardlist .details-navigation .fancybox-button div {
-    display: none
 }
 
 #cardlist .details-button--arrow-left,#cardlist .details-button--arrow-right {
