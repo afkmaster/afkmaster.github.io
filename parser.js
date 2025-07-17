@@ -46,7 +46,7 @@ const path = require('path');
         $details('.cardImage img').attr('src', card.imgUrl);
 
         const navigation = $('<div>')
-          .addClass('details-container');
+          .addClass('details-navigation');
 
         const navButtonLeft = $('<button>')
           .addClass('details-button')
