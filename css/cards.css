@@ -1609,7 +1609,7 @@ body.show-details {
     overflow: hidden;
 }
 
-#cardlist-detail .cardDetailPageCol .active {
+#cardlist-detail .cardDetailPageCol.active {
     display: block;
     width: auto;
     position: fixed;
