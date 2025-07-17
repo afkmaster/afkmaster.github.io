@@ -1411,7 +1411,7 @@ h6.searchColTit {
 }
 
 @media(max-width: 1099.9px) {
-    #cardlist .fancybox-navigation {
+    #cardlist .details-navigation {
         position:fixed;
         display: flex;
         top: auto;
@@ -1431,12 +1431,12 @@ h6.searchColTit {
 }
 
 @media(min-width: 1100px) {
-    #cardlist .fancybox-navigation .fancybox-button {
+    #cardlist .details-navigation .fancybox-button {
         top:calc(50% - 8px)
     }
 }
 
-#cardlist .fancybox-navigation .fancybox-button div {
+#cardlist .details-navigation .fancybox-button div {
     display: none
 }
 
@@ -1543,13 +1543,13 @@ h6.searchColTit {
 
 
 @media(min-width: 1100px) {
-    #cardlist .details-button-close {
+    #cardlist .details-button--close {
         width:64px;
         height: 64px;
         backdrop-filter: blur(4px)
     }
 
-    #cardlist .details-button-close:before {
+    #cardlist .details-button--close:before {
         content: "";
         position: absolute;
         top: 50%;
@@ -1562,7 +1562,7 @@ h6.searchColTit {
 }
 
 @media(max-width: 1099.9px) {
-    #cardlist .details-button-close {
+    #cardlist .details-button--close {
         background:rgba(0,0,0,0);
         width: 30.2666666667vw;
         height: 12vw;
@@ -1642,7 +1642,6 @@ html.show-details {
 #cardlist-detail .details-inner {
     height: 100%;
     width: 100%;
-    padding: 44px;
 }
 
 #cardlist-detail .cardDetailPageContent {
@@ -1660,6 +1659,10 @@ html.show-details {
         display:grid;
         grid-template-columns: repeat(1, 1fr);
         padding: 90px 74px 86px
+    }
+
+    #cardlist-detail .details-inner {
+        padding: 44px;
     }
 }
 
