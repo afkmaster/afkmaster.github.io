@@ -16,22 +16,23 @@ const path = require('path');
     
     const data = fs.readFileSync(setIdsFile, 'utf8');
     const jsonData = JSON.parse(data);
-    console.log(jsonData);
+    
     for (set of jsonData) {
       setFile = path.join(__dirname, scrapedDir, `${set.nameKey}.json`)
       const setData = fs.readFileSync(setFile, 'utf8');
       const setJsonData = JSON.parse(setData);
-      
-      const listItem = $('<li>');
 
-      const a = $('<a>');
-      const img = $('<img>')
-        .attr('src', set.imgUrl);
-
-      a.append(img);
-      listItem.append(a);
-      listItem.append(setJsonData.data);
-      cardList.append(listItem);
+      for (card of setJsonData) {
+        const listItem = $('<li>');
+        const a = $('<a>');
+        const img = $('<img>')
+          .attr('src', card.imgUrl);
+  
+        a.append(img);
+        listItem.append(a);
+        listItem.append(setJsonData.data);
+        cardList.append(listItem);
+      }
       
       const newHtml = $.html();
       fs.writeFileSync(templatePath, newHtml, 'utf8');
