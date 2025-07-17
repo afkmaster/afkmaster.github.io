@@ -16,5 +16,5 @@ document.addEventListener('DOMContentLoaded', function() {
     body.classList.remove('show-details');
     cardDetails.classList.remove('active');
     this.classList.remove('active');
-  }
+  });
 });
