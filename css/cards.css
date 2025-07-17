@@ -78,7 +78,7 @@ html.is-hidden,body.is-hidden {
 
 @media(max-width: 1099.9px) {
     body::before {
-        background:url("/images/cards/bg_gradient.webp") center/cover no-repeat
+        background:url("https://www.gundam-gcg.com/images/cards/bg_gradient.webp") center/cover no-repeat
     }
 }
 
@@ -893,7 +893,7 @@ h6.searchColTit {
     height: 18px;
     border: none;
     color: rgba(0,0,0,0);
-    background: url("/images/common/ico_close.png") center/cover no-repeat;
+    background: url("https://www.gundam-gcg.com/images/common/ico_close.png") center/cover no-repeat;
     z-index: 1;
     border-radius: 999px;
     cursor: pointer
@@ -977,7 +977,7 @@ h6.searchColTit {
     transform: translateY(-50%);
     width: 12px;
     height: 12px;
-    background: url("/images/common/ico_close.png") center/cover no-repeat
+    background: url("https://www.gundam-gcg.com/images/common/ico_close.png") center/cover no-repeat
 }
 
 @media(max-width: 1099.9px) {
@@ -1271,7 +1271,7 @@ h6.searchColTit {
 }
 
 .pagerCol .pagerArrowBtn.prevBtn::before {
-    background-image: url("/images/common/arrow_left.png")
+    background-image: url("https://www.gundam-gcg.com/images/common/arrow_left.png")
 }
 
 @media(max-width: 1099.9px) {
@@ -1292,7 +1292,7 @@ h6.searchColTit {
 }
 
 .pagerCol .pagerArrowBtn.nextBtn::before {
-    background-image: url("/images/common/arrow.png");
+    background-image: url("https://www.gundam-gcg.com/images/common/arrow.png");
     left: auto;
     right: 27px
 }
@@ -1472,7 +1472,7 @@ h6.searchColTit {
     top: 0;
     bottom: 0;
     margin: auto;
-    background: url("/images/common/arrow.png") no-repeat;
+    background: url("https://www.gundam-gcg.com/images/common/arrow.png") no-repeat;
     background-size: contain;
     background-position: center
 }
@@ -1489,7 +1489,7 @@ h6.searchColTit {
 }
 
 #cardlist .fancybox-button--arrow_left::after {
-    background: url("/images/common/arrow_left.png") no-repeat;
+    background: url("https://www.gundam-gcg.com/images/common/arrow_left.png") no-repeat;
     background-size: contain;
     background-position: center;
     left: 22px
@@ -1542,7 +1542,7 @@ h6.searchColTit {
         transform: translate(-50%, -50%);
         width: 24px;
         height: 24px;
-        background: url("/images/common/ico_close_white.png") center/contain no-repeat
+        background: url("https://www.gundam-gcg.com/images/common/ico_close_white.png") center/contain no-repeat
     }
 }
 
@@ -1551,7 +1551,7 @@ h6.searchColTit {
         background:rgba(0,0,0,0);
         width: 30.2666666667vw;
         height: 12vw;
-        background: url("/images/common/btn_close.png") center/cover no-repeat;
+        background: url("https://www.gundam-gcg.com/images/common/btn_close.png") center/cover no-repeat;
         margin-left: auto
     }
 
@@ -1711,7 +1711,7 @@ body#cardlist-detail:before {
     transform: translate(-50%, -50%);
     width: 34px;
     height: 29px;
-    background: url("/images/common/bg_blockIcon.png") center/cover no-repeat
+    background: url("https://www.gundam-gcg.com/images/common/bg_blockIcon.png") center/cover no-repeat
 }
 
 @media(max-width: 1099.9px) {
@@ -2282,7 +2282,7 @@ body#cardlist-detail:before {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url("/images/common/ico_close_white.png") center/contain no-repeat
+    background: url("https://www.gundam-gcg.com/images/common/ico_close_white.png") center/contain no-repeat
 }
 
 @media(max-width: 1099.9px) {
@@ -2675,7 +2675,7 @@ body#cardlist-detail:before {
     position: absolute;
     top: 50%;
     left: 6px;
-    background: url("/images/common/ico_check.png") center/cover no-repeat;
+    background: url("https://www.gundam-gcg.com/images/common/ico_check.png") center/cover no-repeat;
     width: 20px;
     height: 20px;
     transform: translateY(-50%);
