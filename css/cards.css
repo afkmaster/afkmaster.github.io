@@ -1619,8 +1619,7 @@ body#cardlist-detail:before {
     }
 }
 
-body.show-details {
-    height: 100vh;
+html.show-details {
     overflow: hidden;
 }
 
