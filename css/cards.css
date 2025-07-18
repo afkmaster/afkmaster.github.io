@@ -239,7 +239,8 @@ header button:focus,header a:focus,footer button:focus,footer a:focus {
 
 .cardlistHead {
     position: relative;
-    z-index: 100
+    z-index: 100;
+    padding-top: 50px;
 }
 
 .contentsFilterSearchForm {
