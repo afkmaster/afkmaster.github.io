@@ -1376,7 +1376,7 @@ h6.searchColTit {
     height: 44px;
     margin: 0;
     padding: 10px;
-    position: relative;
+    position: fixed;
     transition: color .2s;
     vertical-align: top;
     visibility: inherit;
