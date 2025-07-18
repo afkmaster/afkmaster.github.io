@@ -138,7 +138,7 @@ header button:focus,header a:focus,footer button:focus,footer a:focus {
     right: 18px;
     width: 13px;
     height: 13px;
-    background: url("../images/common/ico_plus.png") center/cover no-repeat
+    background: url("https://www.gundam-gcg.com/images/common/ico_plus.png") center/cover no-repeat
 }
 
 @media(max-width: 1099.9px) {
@@ -187,7 +187,7 @@ header button:focus,header a:focus,footer button:focus,footer a:focus {
 .btn-submit::before {
     width: 17px;
     height: 17px;
-    background: url("../images/common/ico_search_white.png") center/cover no-repeat
+    background: url("https://www.gundam-gcg.com/images/common/ico_search_white.png") center/cover no-repeat
 }
 
 @media(max-width: 1099.9px) {
@@ -2711,7 +2711,7 @@ html.show-details {
     }
 
     .checkboxItem a:hover::before {
-        background: url("../images/common/ico_checked.png") center/cover no-repeat
+        background: url("https://www.gundam-gcg.com/images/common/ico_checked.png") center/cover no-repeat
     }
 }
 
@@ -2741,7 +2741,7 @@ html.show-details {
 }
 
 .checkboxItem.is-selected a::before {
-    background: url("../images/common/ico_checked.png") center/cover no-repeat
+    background: url("https://www.gundam-gcg.com/images/common/ico_checked.png") center/cover no-repeat
 }
 
 .checkboxItem input {
