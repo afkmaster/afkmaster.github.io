@@ -1,0 +1,38 @@
+name: HTML Prettify
+
+on:
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  prettify_html:
+    runs-on: ubuntu-latest # The type of runner machine to use
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24.4.0'
+
+      - name: Install dependencies
+        run: |
+          npm install prettier
+
+      - name: Prettify index.html and output to test.html
+        run: npx prettier index.html > test.html
+        # Explanation:
+        # - 'npx prettier index.html': Prettier reads index.html and prints the formatted output to standard output (stdout).
+        # - '> test.html': The shell redirects stdout to a new file named test.html.
+        # This creates test.html in the root of your repository's checked-out directory on the runner.
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add index.html # Add all changed/new files
+          git commit -m "Automated: Update parsed data" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically provided token
