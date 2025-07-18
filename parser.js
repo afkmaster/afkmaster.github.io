@@ -18,7 +18,7 @@ const path = require('path');
     const jsonData = JSON.parse(data);
     
     for (set of jsonData) {
-      setFile = path.join(__dirname, scrapedDir, `${set.nameKey}.json`)
+      setFile = path.join(__dirname, scrapedDir, `${set.uid}.json`)
       const setData = fs.readFileSync(setFile, 'utf8');
       const setJsonData = JSON.parse(setData);
 
