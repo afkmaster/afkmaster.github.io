@@ -56,10 +56,16 @@ const path = require('path');
         const navButtonRight = $('<button>')
           .addClass('details-button')
           .addClass('details-button--arrow-right')
-          .attr('title', 'Next')
+          .attr('title', 'Next');
+
+        const navButtonClose = $('<button>')
+          .addClass('details-button')
+          .addClass('details-button--close')
+          .attr('title', 'Close');
 
         navigation.append(navButtonLeft)
-          .append(navButtonRight);
+          .append(navButtonRight)
+          .append(navButtonClose);
         
         const bg = $('<div>').addClass('detailBg');
         
