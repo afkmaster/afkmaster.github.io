@@ -17,4 +17,36 @@ document.addEventListener('DOMContentLoaded', function() {
     detailsContainer.classList.remove('active');
     this.classList.remove('active');
   });
+
+  $('.details-navigation .details-button--close').on('click', function() {
+    $(this).closest('.details-container')[0].querySelector('.detailBg').click();
+  });
+
+  $('.details-navigation .details-button--arrow-left').on('click', function() {
+    const cardItem = $(this).closest('.cardItem')[0];
+    const prevSibling = cardItem.previousElementSibling;
+    console.log(prevSibling);
+    cardItem.querySelector('.cardInner .detailBg').click();
+    if (prevSibling) {
+      prevSibling.querySelector('a.cardStr').click();
+    } else {
+      const siblings = cardItem.parentElement.children;
+      const wrapSibling = siblings[siblings.length - 1];
+      wrapSibling.querySelector('a.cardStr').click();
+    }
+  });
+
+  $('.details-navigation .details-button--arrow-right').on('click', function() {
+    const cardItem = $(this).closest('.cardItem')[0];
+    const nextSibling = cardItem.nextElementSibling;
+
+    cardItem.querySelector('.cardInner .detailBg').click();
+    if (nextSibling) {
+      nextSibling.querySelector('a.cardStr').click();
+    } else {
+      const siblings = cardItem.parentElement.children;
+      const wrapSibling = siblings[0];
+      wrapSibling.querySelector('a.cardStr').click();
+    }
+  });
 });
