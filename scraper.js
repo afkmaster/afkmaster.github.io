@@ -15,11 +15,11 @@ async function getSetIds(url) {
     $('.searchFormBox .filterListItems a').each((i, elem) => {
       const setId = $(elem).attr('data-val');
       const name = $(elem).text();
-      const nameKey = name.replace('[', '').replace(']', '').replace("'", '').replaceAll(' ', '_').toLowerCase();
+      const uid = name.replace('[', '').replace(']', '').replace("'", '').replaceAll(' ', '_').toLowerCase();
       if (setId) {
         setIds.push({
           name: name,
-          nameKey: nameKey,
+          uid: uid,
           webPackageId: setId
         });
       }
@@ -67,7 +67,7 @@ async function getSetData(url, setIds) {
         });
       };
 
-      setData[item.nameKey] = cards;
+      setData[item.uid] = cards;
     } catch (error) {
       console.error(`Error during request or scraping: ${error.message}`);
       return {};
