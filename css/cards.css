@@ -1637,6 +1637,7 @@ html.show-details {
 
 #cardlist-detail .details-container.active {
     display: block;
+    z-index: 101;
 }
 
 #cardlist-detail .details-inner {
