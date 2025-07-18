@@ -1543,7 +1543,9 @@ h6.searchColTit {
     #cardlist .details-navigation .details-button--close {
         width:64px;
         height: 64px;
-        backdrop-filter: blur(4px)
+        backdrop-filter: blur(4px);
+        top: 0;
+        right: 0;
     }
 
     #cardlist .details-navigation .details-button--close:before {
