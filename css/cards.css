@@ -1124,7 +1124,7 @@ h6.searchColTit {
 
 @media(max-width: 1099.9px) {
     .cardCol .cardInner {
-        gap:4vw 4.4vw;
+        gap:4vw 3.4vw;
         margin: auto
     }
 }
