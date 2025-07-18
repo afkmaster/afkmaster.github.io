@@ -1540,13 +1540,13 @@ h6.searchColTit {
 
 
 @media(min-width: 1100px) {
-    #cardlist .details-button--close {
+    #cardlist .details-navigation .details-button--close {
         width:64px;
         height: 64px;
         backdrop-filter: blur(4px)
     }
 
-    #cardlist .details-button--close:before {
+    #cardlist .details-navigation .details-button--close:before {
         content: "";
         position: absolute;
         top: 50%;
@@ -1559,12 +1559,13 @@ h6.searchColTit {
 }
 
 @media(max-width: 1099.9px) {
-    #cardlist .details-button--close {
-        background:rgba(0,0,0,0);
+    #cardlist .details-navigation .details-button--close {
         width: 30.2666666667vw;
         height: 12vw;
         background: url("https://www.gundam-gcg.com/images/common/btn_close.png") center/cover no-repeat;
-        margin-left: auto
+        right: 2.666667vw;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 
