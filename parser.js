@@ -97,7 +97,7 @@ const path = require('path');
     }
   } catch (err) {
     if (err.code === 'ENOENT') {
-      console.error('File not found at:', filePath);
+      console.error('File not found at:', err);
     } else if (err instanceof SyntaxError) {
       console.error('Error parsing JSON (invalid JSON format):', err.message);
     } else {
