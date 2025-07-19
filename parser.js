@@ -18,7 +18,7 @@ const path = require('path');
     const jsonData = JSON.parse(data);
 
     const filterSetOptions = $('.filterListItems');
-    const setFilter = $('a').addClass('js-selectBtn-package')
+    const setFilter = $('<a>').addClass('js-selectBtn-package')
       .text('ALL');
 
     filterSetOptions.append(setFilter);
@@ -28,7 +28,7 @@ const path = require('path');
       const setData = fs.readFileSync(setFile, 'utf8');
       const setJsonData = JSON.parse(setData);
 
-      const setFilter = $('a').addClass('js-selectBtn-package')
+      const setFilter = $('<a>').addClass('js-selectBtn-package')
         .text(set.name);
       filterSetOptions.append(setFilter);
       
