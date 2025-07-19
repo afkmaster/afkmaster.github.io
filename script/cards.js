@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
   $('.details-navigation .details-button--arrow-left').on('click', function() {
     const cardItem = $(this).closest('.cardItem')[0];
     const prevSibling = cardItem.previousElementSibling;
-    console.log(prevSibling);
+
     cardItem.querySelector('.cardInner .detailBg').click();
     if (prevSibling) {
       prevSibling.querySelector('a.cardStr').click();
