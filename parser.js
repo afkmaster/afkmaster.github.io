@@ -89,13 +89,13 @@ const path = require('path');
           .append(detailsContainer);
         cardList.append(listItem).append('\n');
       }
-
-      const filterList = $('.filterList').empty();
-      filterList.append(filterSetOptions);
-      
-      const newHtml = $.html();
-      fs.writeFileSync(templatePath, newHtml, 'utf8');
     }
+
+    const filterList = $('.filterList').empty();
+    filterList.append(filterSetOptions);
+      
+    const newHtml = $.html();
+    fs.writeFileSync(templatePath, newHtml, 'utf8');
   } catch (err) {
     if (err.code === 'ENOENT') {
       console.error('File not found at:', err);
