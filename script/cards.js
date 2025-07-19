@@ -1,25 +1,32 @@
 document.addEventListener('DOMContentLoaded', function() {
-  $('.cardInner a.cardStr').on('click', function() {
-    const html = document.querySelector('html');
-    const detailsContainer = this.parentElement.querySelector('.details-container');
-    const bg = this.parentElement.querySelector('.detailBg');
-    
-    html.classList.add('show-details');
-    detailsContainer.classList.add('active');
-    bg.classList.add('active');
-  });
+  $('.cardInner').on('click', function() {
+    const card = event.target.closest('a.cardStr');
 
-  $('.cardInner .detailBg').on('click', function() {
-    const html = document.querySelector('html');
-    const detailsContainer = this.parentElement;
+    if (card && event.currentTarget.contains(card)) {
+      const html = document.querySelector('html');
+      const parent = card.closest('cardItem');
+      const detailsContainer = parent.querySelector('.details-container');
+      const bg = parent.querySelector('.detailBg');
+      
+      html.classList.add('show-details');
+      detailsContainer.classList.add('active');
+      bg.classList.add('active');
+    }
+
+    const bg = event.target.closest('.detailBg');
+
+    if (bg && event.currentTarget.contains(bg)) {
+      const html = document.querySelector('html');
+      const detailsContainer = bg.closest('.details-container');
     
-    html.classList.remove('show-details');
-    detailsContainer.classList.remove('active');
-    this.classList.remove('active');
+      html.classList.remove('show-details');
+      detailsContainer.classList.remove('active');
+      bg.remove('active');
+    }
   });
 
   $('.details-navigation .details-button--close').on('click', function() {
-    $(this).closest('.details-container')[0].querySelector('.detailBg').click();
+    this.closest('.details-container').querySelector('.detailBg').click();
   });
 
   $('.details-navigation .details-button--arrow-left').on('click', function() {
