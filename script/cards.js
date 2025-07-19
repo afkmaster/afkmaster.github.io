@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   $('.details-navigation .details-button--arrow-left').on('click', function() {
-    const cardItem = $(this).closest('.cardItem')[0];
+    const cardItem = this.closest('.cardItem');
     const prevSibling = cardItem.previousElementSibling;
 
     cardItem.querySelector('.cardInner .detailBg').click();
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   $('.details-navigation .details-button--arrow-right').on('click', function() {
-    const cardItem = $(this).closest('.cardItem')[0];
+    const cardItem = this.closest('.cardItem');
     const nextSibling = cardItem.nextElementSibling;
 
     cardItem.querySelector('.cardInner .detailBg').click();
