@@ -16,12 +16,21 @@ const path = require('path');
     
     const data = fs.readFileSync(setIdsFile, 'utf8');
     const jsonData = JSON.parse(data);
+
+    const filterSetOptions = $('.filterListItems');
+    const setFilter = $('a').addClass('js-selectBtn-package')
+      .text('ALL');
+
+    filterSetOptions.append(setFilter);
     
     for (set of jsonData) {
       setFile = path.join(__dirname, scrapedDir, `${set.uid}.json`)
       const setData = fs.readFileSync(setFile, 'utf8');
       const setJsonData = JSON.parse(setData);
 
+      setFilter.text(set.name);
+      filterSetOptions.append(setFilter);
+      
       for (card of setJsonData) {
         const listItem = $('<li>');
         const a = $('<a>');
@@ -79,6 +88,9 @@ const path = require('path');
           .append(detailsContainer);
         cardList.append(listItem).append('\n');
       }
+
+      const filterList = $('.filterList').empty();
+      filterList.append(filterSetOptions);
       
       const newHtml = $.html();
       fs.writeFileSync(templatePath, newHtml, 'utf8');
