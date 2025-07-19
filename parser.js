@@ -28,7 +28,8 @@ const path = require('path');
       const setData = fs.readFileSync(setFile, 'utf8');
       const setJsonData = JSON.parse(setData);
 
-      setFilter.text(set.name);
+      const setFilter = $('a').addClass('js-selectBtn-package')
+        .text(set.name);
       filterSetOptions.append(setFilter);
       
       for (card of setJsonData) {
