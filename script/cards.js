@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (card && event.currentTarget.contains(card)) {
       const html = document.querySelector('html');
-      const parent = card.closest('cardItem');
+      const parent = card.closest('.cardItem');
       const detailsContainer = parent.querySelector('.details-container');
       const bg = parent.querySelector('.detailBg');
       
