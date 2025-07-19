@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
       html.classList.remove('show-details');
       detailsContainer.classList.remove('active');
-      bg.remove('active');
+      bg.classList.remove('active');
     }
   });
 
