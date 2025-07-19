@@ -17,11 +17,11 @@ const path = require('path');
     const data = fs.readFileSync(setIdsFile, 'utf8');
     const jsonData = JSON.parse(data);
 
-    const filterSetOptions = $('.filterListItems');
-    const setFilter = $('<a>').addClass('js-selectBtn-package')
+    const filterSetOptions = $('.filterListItems').empty();
+    const allFilter = $('<a>').addClass('js-selectBtn-package')
       .text('ALL');
 
-    filterSetOptions.append(setFilter);
+    filterSetOptions.append(allFilter);
     
     for (set of jsonData) {
       setFile = path.join(__dirname, scrapedDir, `${set.uid}.json`)
