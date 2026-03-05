@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chinese Character & Pinyin Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/pinyin-pro"></script>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f8f9fa;
+      font-family: 'Noto Sans SC', sans-serif;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-weight: bold;
+      transition: all 0.2s;
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+
+    .btn-standard {
+      background-color: #28a745;
+    }
+
+    .btn-extended {
+      background-color: #6f42c1;
+    }
+
+    .btn-copy {
+      background-color: #007bff;
+      margin-top: 20px;
+      display: none;
+      /* Hidden until characters are generated */
+    }
+
+    #display-card {
+      padding: 40px;
+      border: 2px solid #ddd;
+      border-radius: 12px;
+      background-color: white;
+      min-width: 320px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    #pinyin-output {
+      font-size: 1.5rem;
+      color: #d9534f;
+      margin-bottom: 10px;
+      min-height: 1.6em;
+      letter-spacing: 2px;
+    }
+
+    #char-output {
+      font-size: 5rem;
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    .copy-controls {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+  </style>
+  <script>
+    function generate(includeB) {
+      const {
+        pinyin
+      } = pinyinPro;
+
+      const ranges = [
+        [0x4e00, 0x9fff],
+        [0x3400, 0x4dbf]
+      ];
+      if (includeB) ranges.push([0x20000, 0x2a6df]);
+
+      let charResult = '';
+      let pinyinResult = '';
+
+      for (let i = 0; i < 3; i++) {
+        let validChar = false;
+        let char = '';
+        let charPinyin = '';
+
+        while (!validChar) {
+          const range = ranges[Math.floor(Math.random() * ranges.length)];
+          const codePoint = Math.floor(Math.random() * (range[1] - range[0] + 1)) + range[0];
+          char = String.fromCodePoint(codePoint);
+
+          charPinyin = pinyin(char, {
+            toneType: 'none',
+            separator: ''
+          });
+
+          if (charPinyin !== char && charPinyin.trim() !== "") {
+            validChar = true;
+          }
+        }
+
+        charResult += char;
+        pinyinResult += charPinyin;
+      }
+
+      document.getElementById('char-output').innerText = charResult;
+      document.getElementById('pinyin-output').innerText = pinyinResult;
+
+      const copyButtons = document.querySelectorAll('.btn-copy');
+      copyButtons.forEach(btn => btn.style.display = 'inline-block');
+    }
+
+    async function copyToClipboard(sourceId, btn) {
+      const text = document.getElementById(sourceId).innerText;
+      const originalText = btn.innerText;
+
+      try {
+        await navigator.clipboard.writeText(text);
+        btn.innerText = 'Copied!';
+        setTimeout(() => {
+          btn.innerText = originalText;
+        }, 2000);
+      } catch (err) {
+        console.error('Failed to copy: ', err);
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div class="button-group">
+    <button class="btn-standard" onclick="generate(false)">Standard</button>
+    <button class="btn-extended" onclick="generate(true)">Extended</button>
+  </div>
+  <div id="display-card">
+    <div id="pinyin-output"></div>
+    <div id="char-output"></div>
+    <div class="copy-controls">
+      <button id="copy-pinyin-btn" class="btn-copy" onclick="copyToClipboard('pinyin-output', this)">Copy Pinyin</button>
+      <button id="copy-char-btn" class="btn-copy" onclick="copyToClipboard('char-output', this)">Copy Characters</button>
+    </div>
+  </div>
+</body>
+
+</html>
