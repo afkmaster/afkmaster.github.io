@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h4 {
-    /* font-family: 'Eurostar Regular Extended', sans-serif; */
+    /* font-family: 'Myriad Pro Regular', sans-serif; */
     /* font-size: 1.5rem */
 }
 
@@ -92,11 +92,11 @@ a {
 
 div.container {
     width         : calc(100% - 4em);
-	height        : calc(100% - 0.5em);
-	position      : relative;
-	box-sizing    : border-box;
-	border-radius : 8px;
-	margin        : 0 auto;
+  height        : calc(100% - 0.5em);
+  position      : relative;
+  box-sizing    : border-box;
+  border-radius : 8px;
+  margin        : 0 auto;
     margin-bottom : 0.5em;
     opacity: 0.9;
     background-size: 100% 100%;
@@ -110,21 +110,21 @@ div.container {
 
 label {
     color: var(--clearBlue_importantText);
-    font-family: 'Eurostar Regular Extended', sans-serif;
+    font-family: 'Myriad Pro Regular', sans-serif;
     text-transform: capitalize;
 }
 div.summary {
     padding: 0 0.5em;
 }
 div.container > div.inner {
-	width          : 100%;
-	height         : 100%;
-	position       : relative;
-	box-sizing     : border-box;
-	display        : flex;
-	flex-direction : column;
-	border-radius  : 1px;
-	overflow       : hidden;
+  width          : 100%;
+  height         : 100%;
+  position       : relative;
+  box-sizing     : border-box;
+  display        : flex;
+  flex-direction : column;
+  border-radius  : 1px;
+  overflow       : hidden;
     background-image: linear-gradient(90deg, var(--clearBlue_toggleBackground) 0%, var(--clearBlue_containerBackground) 100%);
     box-shadow: none;
     /* border-radius: 0; */
@@ -143,7 +143,7 @@ label {
 
 input.input {
     color: var(--clearBlue_headerAndLinkText);
-    font-family: 'Eurostar Regular Extended', sans-serif;
+    font-family: 'Myriad Pro Regular', sans-serif;
     font-size: 1em;
     background: var(--clearBlue_contentBackground);
     border: 0px solid var(--clearBlue_borderInner);
